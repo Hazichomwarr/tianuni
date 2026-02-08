@@ -2,9 +2,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import Container from "@/app/components/Container";
-import { SITE } from "./lib/site";
-import { ROUTES } from "./lib/route";
-import { ACTIVITES_NAV } from "./lib/nav";
+import { SITE } from "./_lib/site";
+import { ROUTES } from "./_lib/siteRoutes";
+import { ACTIVITES_NAV } from "./_lib/nav";
 
 export default function HomePage() {
   return (
@@ -214,9 +214,13 @@ export default function HomePage() {
             <div className="aspect-4/3 rounded-xl bg-neutral-100" />
           </div>
 
-          <p className="mt-3 text-xs text-neutral-500">
+          {/* <p className="mt-3 text-xs text-neutral-500">
             (Aperçu) — Remplace ces blocs par des images quand le client fournit
             les albums.
+          </p> */}
+          <p className="mt-3 text-sm text-neutral-600">
+            Découvrez quelques moments forts de nos activités. La galerie
+            complète sera mise à jour régulièrement.
           </p>
         </div>
       </section>

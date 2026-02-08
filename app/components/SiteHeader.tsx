@@ -3,8 +3,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import Container from "./Container";
-import { ROUTES } from "../lib/route";
-import { HEADER_NAV } from "../lib/nav";
+import { ROUTES } from "../_lib/siteRoutes";
+import { HEADER_NAV } from "../_lib/nav";
 
 export default function SiteHeader() {
   return (
@@ -14,17 +14,13 @@ export default function SiteHeader() {
         <div className="flex items-center justify-between py-4">
           <Link href={ROUTES.home} className="flex items-center gap-3">
             <Image
-  src="/logo2.jpeg"
-  alt="Association Tianuni"
-  width={90}
-  height={90}
-  priority
-  className="rounded-full bg-white p-1.5 object-contain shadow-lg"
-  sizes="(max-width: 768px) 56px, 64px"
-/>
-
-
-
+              src="/logo2.jpeg"
+              alt="Logo Tianuni"
+              width={44}
+              height={44}
+              className="object-contain"
+              priority
+            />
             <span className="sr-only">Tianuni</span>
           </Link>
 

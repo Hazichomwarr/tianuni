@@ -1,10 +1,10 @@
 // components/SiteFooter.tsx
 
 import Link from "next/link";
-import { SITE } from "../lib/site";
+import { SITE } from "../_lib/site";
 import Container from "./Container";
-import { ROUTES } from "../lib/route";
-import { FOOTER_NAV } from "../lib/nav";
+import { ROUTES } from "../_lib/siteRoutes";
+import { FOOTER_NAV } from "../_lib/nav";
 
 export default function SiteFooter() {
   return (

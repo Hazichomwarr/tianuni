@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Container from "../components/Container";
-import { ACTIVITES_NAV } from "../lib/nav";
+import { ACTIVITES_NAV } from "../_lib/nav";
 
 export default function ActivitesPage() {
   return (

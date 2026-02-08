@@ -1,6 +1,6 @@
 // app/contact/page.tsx
 import Container from "@/app/components/Container";
-import { SITE } from "../lib/site";
+import { SITE } from "../_lib/site";
 
 export default function ContactPage() {
   return (
@@ -30,7 +30,7 @@ export default function ContactPage() {
           </div>
         </section>
 
-        <section className="rounded-xl border p-6">
+        {/* <section className="rounded-xl border p-6">
           <h2 className="text-xl font-semibold tracking-tight">
             Formulaire (stub)
           </h2>
@@ -44,6 +44,24 @@ export default function ContactPage() {
             <div className="h-10 rounded-md bg-neutral-100" />
             <div className="h-28 rounded-md bg-neutral-100" />
             <div className="h-10 w-40 rounded-md bg-neutral-900" />
+          </div>
+        </section> */}
+
+        <section className="rounded-xl border p-6">
+          <h2 className="text-xl font-semibold tracking-tight">
+            Formulaire de contact
+          </h2>
+          <p className="mt-2 text-neutral-700">
+            Vous pouvez nous contacter directement par email ou téléphone. Un
+            formulaire de contact sera bientôt disponible sur cette page.
+          </p>
+
+          {/* Visual placeholder (kept intentionally minimal) */}
+          <div className="mt-4 grid gap-3">
+            <div className="h-10 rounded-md bg-neutral-100" />
+            <div className="h-10 rounded-md bg-neutral-100" />
+            <div className="h-28 rounded-md bg-neutral-100" />
+            <div className="h-10 w-40 rounded-md bg-neutral-300" />
           </div>
         </section>
       </div>

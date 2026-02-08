@@ -1,6 +1,6 @@
 // app/mentions-legales/page.tsx
 import Container from "@/app/components/Container";
-import { SITE } from "../lib/site";
+import { SITE } from "../_lib/site";
 
 export default function MentionsLegalesPage() {
   return (

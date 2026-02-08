@@ -1,5 +1,5 @@
 // lib/nav.ts
-import { ROUTES } from "./route";
+import { ROUTES } from "./siteRoutes";
 
 export type NavItem = { label: string; href: string };
 
