@@ -3,8 +3,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import Container from "./Container";
-import { ROUTES } from "../lib/route";
-import { HEADER_NAV } from "../lib/nav";
+import { ROUTES } from "../_lib/siteRoutes";
+import { HEADER_NAV } from "../_lib/nav";
 
 export default function SiteHeader() {
   return (
@@ -18,7 +18,7 @@ export default function SiteHeader() {
               alt="Logo Tianuni"
               width={44}
               height={44}
-              className="object-contain"
+              className="object-contain rounded-lg"
               priority
             />
             <span className="sr-only">Tianuni</span>

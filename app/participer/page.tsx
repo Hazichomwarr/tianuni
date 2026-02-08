@@ -1,7 +1,7 @@
 // app/participer/page.tsx
 import Container from "@/app/components/Container";
 import Link from "next/link";
-import { ROUTES } from "../lib/route";
+import { ROUTES } from "../_lib/siteRoutes";
 
 export default function ParticiperPage() {
   return (

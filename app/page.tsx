@@ -2,9 +2,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import Container from "@/app/components/Container";
-import { SITE } from "./lib/site";
-import { ROUTES } from "./lib/route";
-import { ACTIVITES_NAV } from "./lib/nav";
+import { SITE } from "./_lib/site";
+import { ROUTES } from "./_lib/siteRoutes";
+import { ACTIVITES_NAV } from "./_lib/nav";
 
 export default function HomePage() {
   return (

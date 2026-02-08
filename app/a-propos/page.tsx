@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Container from "@/app/components/Container";
 import Link from "next/link";
-import { ROUTES } from "../lib/route";
+import { ROUTES } from "../_lib/siteRoutes";
 
 type Administrator = {
   name: string;

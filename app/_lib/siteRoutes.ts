@@ -1,4 +1,4 @@
-// lib/route.ts
+// _lib/siteRoutes.ts
 
 //Centralized routes
 export const ROUTES = {
