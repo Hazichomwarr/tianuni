@@ -14,11 +14,11 @@ export default function SiteHeader() {
         <div className="flex items-center justify-between py-4">
           <Link href={ROUTES.home} className="flex items-center gap-3">
             <Image
-              src="/logo.png"
+              src="/logo2.jpeg"
               alt="Logo Tianuni"
               width={44}
               height={44}
-              className="h-11 w-11"
+              className="object-contain"
               priority
             />
             <span className="sr-only">Tianuni</span>
