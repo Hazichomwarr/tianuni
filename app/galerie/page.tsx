@@ -3,7 +3,7 @@ import Container from "@/app/components/Container";
 import Link from "next/link";
 
 export default function GaleriePage() {
-  const years = ["2026", "2025", "2024"]; // placeholder until real data
+  const years = ["2026", "2025"]; // placeholder until real data
 
   return (
     <Container>
@@ -12,6 +12,9 @@ export default function GaleriePage() {
         Albums photos/vidéos de nos événements. Choisissez une année pour
         explorer.
       </p>
+
+      {/* Video */}
+      <div className="mt-8 grid gap-3 md:grid-cols-3"></div>
 
       <div className="mt-8 grid gap-4 md:grid-cols-3">
         {years.map((y) => (

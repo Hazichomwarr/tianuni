@@ -207,17 +207,37 @@ export default function HomePage() {
             </Link>
           </div>
 
-          {/* Placeholder “preview” */}
+          {/* Gallery preview */}
           <div className="mt-8 grid gap-3 md:grid-cols-3">
-            <div className="aspect-4/3 rounded-xl bg-neutral-100" />
-            <div className="aspect-4/3 rounded-xl bg-neutral-100" />
-            <div className="aspect-4/3 rounded-xl bg-neutral-100" />
+            {[
+              {
+                src: "/gallery/event_3.jpeg",
+                alt: "Souvenir d’un événement Tianuni",
+              },
+              {
+                src: "/gallery/event_2.jpeg",
+                alt: "Atelier et échanges culturels",
+              },
+              {
+                src: "/gallery/event_1.jpeg",
+                alt: "Moment fort de la communauté",
+              },
+            ].map((img) => (
+              <div
+                key={img.src}
+                className="relative aspect-4/3 overflow-hidden rounded-xl border bg-neutral-100"
+              >
+                <Image
+                  src={img.src}
+                  alt={img.alt}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 384px"
+                />
+              </div>
+            ))}
           </div>
 
-          {/* <p className="mt-3 text-xs text-neutral-500">
-            (Aperçu) — Remplace ces blocs par des images quand le client fournit
-            les albums.
-          </p> */}
           <p className="mt-3 text-sm text-neutral-600">
             Découvrez quelques moments forts de nos activités. La galerie
             complète sera mise à jour régulièrement.
