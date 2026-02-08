@@ -17,7 +17,14 @@ export default function SiteFooter() {
 
             <div className="mt-2">
               {SITE.phones.map((p) => (
-                <div key={p}>{p}</div>
+                <div key={p.href}>
+                  <a
+                    href={p.href}
+                    className="uderline underline-offset-4 hover:text-neutral-900"
+                  >
+                    📞 {p.label}
+                  </a>
+                </div>
               ))}
             </div>
           </div>

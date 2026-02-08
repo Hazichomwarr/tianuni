@@ -13,6 +13,13 @@ type Administrator = {
 
 const ADMINISTRATEURS: Administrator[] = [
   {
+    name: "Bintou Zio Gouba",
+    role: "Présidente de l’Association Tianuni",
+    qualifications:
+      "Superviseure en entretien ménager, conseillère en techniques de gestion hôtelière et gestionnaire événementielle.",
+    image: "/admin/presi.png",
+  },
+  {
     name: "M. GOUSSA Adama Gérard",
     role: "Vice-président – Relations extérieures et affaires culturelles",
     qualifications:
@@ -20,24 +27,11 @@ const ADMINISTRATEURS: Administrator[] = [
     image: "/admin/admin_5.jpg",
   },
   {
-    name: "Bintou Gouba",
-    role: "Présidente de l’Association Tianuni",
+    name: "Nabede Mereza",
+    role: "Coordination générale : supervision de l’ensemble des activités, gestion des imprévus et suivi du plan d’action de l’Association Tianuni",
     qualifications:
-      "Superviseure en entretien ménager, conseillère en techniques de gestion hôtelière et gestionnaire événementielle.",
-    image: "/admin/presi.png",
-  },
-  {
-    name: "Prenom Nom",
-    role: "Membre du Conseil d’Administration",
-    qualifications:
-      "Analyste en intelligence d’affaires et intelligence artificielle.",
-    image: "/admin/admin_2.jpg",
-  },
-  {
-    name: "Ramata Diallo",
-    role: "Membre du Conseil d’Administration",
-    qualifications: "Conseillère agréée en avantages sociaux.",
-    image: "/admin/admin_3.jpg",
+      "Conseiller en automatisation du bâtiment - Organization: CHU de Québec",
+    image: "/admin/admin4.jpeg",
   },
   {
     name: "Jessica Yasmine Gouba",
@@ -45,6 +39,20 @@ const ADMINISTRATEURS: Administrator[] = [
     qualifications:
       "Étudiante en soins infirmiers auxiliaires et maquilleuse professionnelle.",
     image: "/admin/admin_4.jpg",
+  },
+  {
+    name: "Ramata Diallo",
+    role: "Membre du Conseil d’Administration",
+    qualifications: "Conseillère agréée en avantages sociaux.",
+    image: "/admin/admin_3.jpg",
+  },
+
+  {
+    name: "Solange Teila Baro",
+    role: "Membre du Conseil d’Administration",
+    qualifications:
+      "Analyste en intelligence d’affaires et intelligence artificielle.",
+    image: "/admin/admin_2.jpg",
   },
 ];
 
