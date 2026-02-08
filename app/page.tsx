@@ -47,7 +47,7 @@ export default function HomePage() {
             <div className="mt-7 flex flex-wrap gap-3">
               <Link
                 href={ROUTES.activities}
-                className="rounded-md bg-amber-800 px-4 py-2.5 text-sm font-medium text-neutral-200 hover:bg-neutral-100"
+                className="rounded-md bg-amber-400 px-4 py-2.5 text-sm font-medium text-neutral-700 hover:bg-neutral-100"
               >
                 Découvrir nos activités
               </Link>
