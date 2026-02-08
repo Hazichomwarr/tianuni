@@ -14,7 +14,7 @@ export default function SiteHeader() {
         <div className="flex items-center justify-between py-4">
           <Link href={ROUTES.home} className="flex items-center gap-3">
             <Image
-              src="/logo.png"
+              src="/logo2.jpeg"
               alt="Association Tianuni"
               width={90}
               height={90}
