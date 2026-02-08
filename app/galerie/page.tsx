@@ -13,7 +13,7 @@ export default function GaleriePage() {
         explorer.
       </p>
 
-      {/* Video */}
+      {/* Video here */}
       <div className="mt-8 grid gap-3 md:grid-cols-3"></div>
 
       <div className="mt-8 grid gap-4 md:grid-cols-3">
