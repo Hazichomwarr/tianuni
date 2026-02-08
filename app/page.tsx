@@ -15,11 +15,11 @@ export default function HomePage() {
           {/* Background photo */}
           <div className="absolute inset-0">
             <Image
-              src="/hero.jpg"
+              src="/logo2.jpeg"
               alt="Événement culturel Tianuni"
               fill
               priority
-              className="object-cover"
+              className="object-contain"
               sizes="(max-width: 768px) 100vw, 1152px"
             />
             {/* Dark overlays for readability */}
