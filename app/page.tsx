@@ -214,9 +214,13 @@ export default function HomePage() {
             <div className="aspect-4/3 rounded-xl bg-neutral-100" />
           </div>
 
-          <p className="mt-3 text-xs text-neutral-500">
+          {/* <p className="mt-3 text-xs text-neutral-500">
             (Aperçu) — Remplace ces blocs par des images quand le client fournit
             les albums.
+          </p> */}
+          <p className="mt-3 text-sm text-neutral-600">
+            Découvrez quelques moments forts de nos activités. La galerie
+            complète sera mise à jour régulièrement.
           </p>
         </div>
       </section>
