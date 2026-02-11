@@ -30,8 +30,13 @@ const ADMINISTRATEURS: Administrator[] = [
     name: "Nabede Mereza",
     role: "Coordination générale : supervision de l’ensemble des activités, gestion des imprévus et suivi du plan d’action de l’Association Tianuni",
     qualifications:
+<<<<<<< HEAD
       "Conseiller en automatisation du bâtiment - Organization: CHU de Québec",
     image: "/admin/admin4.jpeg",
+=======
+      "Superviseure en entretien ménager, conseillère en techniques de gestion hôtelière et gestionnaire événementielle.",
+    image: "/admin/admin_presi.jpg",
+>>>>>>> f6714fa (Update a-propos page and add images)
   },
   {
     name: "Jessica Yasmine Gouba",
