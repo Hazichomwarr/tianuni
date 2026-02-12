@@ -17,7 +17,7 @@ const ADMINISTRATEURS: Administrator[] = [
     role: "Présidente de l’Association Tianuni",
     qualifications:
       "Superviseure en entretien ménager, conseillère en techniques de gestion hôtelière et gestionnaire événementielle.",
-    image: "/admin/presi.png",
+    image: "/admin/admin_presi.jpg",
   },
   {
     name: "M. GOUSSA Adama Gérard",
@@ -30,13 +30,8 @@ const ADMINISTRATEURS: Administrator[] = [
     name: "Nabede Mereza",
     role: "Coordination générale : supervision de l’ensemble des activités, gestion des imprévus et suivi du plan d’action de l’Association Tianuni",
     qualifications:
-<<<<<<< HEAD
       "Conseiller en automatisation du bâtiment - Organization: CHU de Québec",
     image: "/admin/admin4.jpeg",
-=======
-      "Superviseure en entretien ménager, conseillère en techniques de gestion hôtelière et gestionnaire événementielle.",
-    image: "/admin/admin_presi.jpg",
->>>>>>> f6714fa (Update a-propos page and add images)
   },
   {
     name: "Jessica Yasmine Gouba",
@@ -62,14 +57,16 @@ const ADMINISTRATEURS: Administrator[] = [
 ];
 
 function AdminCard({ name, role, qualifications, image }: Administrator) {
+  // const isPresi = name.includes("Bintou");
   return (
-    <div className="overflow-hidden rounded-2xl border bg-white">
-      <div className="relative aspect-square w-full bg-neutral-100">
+    <div className={`overflow-hidden rounded-2xl border bg-white`}>
+      <div className={`relative aspect-square w-full bg-neutral-100`}>
         <Image
           src={image}
           alt={`${name} — ${role}`}
-          fill
-          className="object-cover"
+          width={360}
+          height={160}
+          className={`object-cover`}
           sizes="(max-width: 768px) 100vw, 33vw"
         />
       </div>

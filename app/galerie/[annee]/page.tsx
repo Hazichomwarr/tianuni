@@ -11,9 +11,18 @@ export default async function GalerieAnneePage({
 
   // placeholder albums until you wire a CMS/data source
   const albums = [
-    { slug: "festival-origines", title: "Festival Cultures & Origines" },
-    { slug: "atelier-cuisine", title: "Atelier Cuisine" },
-    { slug: "conference-histoire", title: "Conférence & Débat" },
+    {
+      slug: "festival-origines",
+      title: "Festival Cultures & Origines",
+    },
+    {
+      slug: "atelier-cuisine",
+      title: "Atelier Cuisine",
+    },
+    {
+      slug: "conference-histoire",
+      title: "Conférence & Débat",
+    },
   ];
 
   return (
