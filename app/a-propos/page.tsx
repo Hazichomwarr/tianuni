@@ -17,13 +17,13 @@ const ADMINISTRATEURS: Administrator[] = [
     role: "Présidente de l’Association Tianuni",
     qualifications:
       "Superviseure en entretien ménager, conseillère en techniques de gestion hôtelière et gestionnaire événementielle.",
-    image: "/admin/admin_presi.jpg",
+    image: "/admin/presi4.jpg",
   },
   {
     name: "M. GOUSSA Adama Gérard",
     role: "Vice-président – Relations extérieures et affaires culturelles",
     qualifications:
-      "Gestionnaire de formation, agent dans les secteurs de l’aviation et des télécommunications, spécialisé en marketing digital. Promoteur de la start-up G. Carrière Group. Membre actif de l’Union Panafricaine de la Jeunesse et Secrétaire Général de l’Association des Burkinabè du Grand Montréal (ABGM).",
+      "Gestionnaire de formation, agent dans les secteurs de l’aviation et des télécommunications, spécialisé en marketing digital. Promoteur de la start-up G. Carrière Group.Membre actif de l’Union Panafricaine de la Jeunesse et Secrétaire Général de l’Association des Burkinabè du Grand Montréal (ABGM)",
     image: "/admin/admin_5.jpg",
   },
   {
@@ -65,7 +65,7 @@ function AdminCard({ name, role, qualifications, image }: Administrator) {
           src={image}
           alt={`${name} — ${role}`}
           width={360}
-          height={160}
+          height={100}
           className={`object-cover`}
           sizes="(max-width: 768px) 100vw, 33vw"
         />
