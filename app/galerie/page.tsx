@@ -3,7 +3,7 @@ import Container from "@/app/components/Container";
 import Link from "next/link";
 
 export default function GaleriePage() {
-  const years = ["2026", "2025"]; // placeholder until real data
+  const years = ["2026", "2025"];
 
   return (
     <Container>
