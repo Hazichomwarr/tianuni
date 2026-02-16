@@ -52,10 +52,10 @@ export default function HomePage() {
                 Découvrir nos activités
               </Link>
               <Link
-                href={ROUTES.participate}
+                href={ROUTES.gallery}
                 className="rounded-md border border-white/30 px-4 py-2.5 text-sm font-medium text-white hover:bg-white/10"
               >
-                Participer
+                Galerie
               </Link>
               <Link
                 href={ROUTES.about}
