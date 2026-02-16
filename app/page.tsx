@@ -13,14 +13,14 @@ export default function HomePage() {
       <section className="py-6 md:py-10">
         <div className="relative overflow-hidden rounded-3xl border">
           {/* Background photo */}
-          <div className="absolute inset-0">
+          <div className="absolute inset-0 aspect-square md:aspect-7/6">
             <Image
               src="/logo2.jpeg"
               alt="Événement culturel Tianuni"
               fill
               priority
-              className="object-contain"
-              sizes="(max-width: 768px) 100vw, 1152px"
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 1100px"
             />
             {/* Dark overlays for readability */}
             <div className="absolute inset-0 bg-black/40" />
