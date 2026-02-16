@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Container from "@/app/components/Container";
 import { notFound } from "next/navigation";
-import AlbumGrid from "@/app/components/AlbumGrid";
+// import AlbumGrid from "@/app/components/AlbumGrid";
 
 export type AlbumType = {
   src: string;
@@ -19,49 +19,9 @@ const PICTURES: Pictures = [
         src: "/images/parrain&presi.jpg",
         alt: "festival",
         label: {
-          title: "Le parrain du festival et la Presidente",
-          text: "Le parrain du festival, monsieur Amadou Kienou en compagnie de la présidente de l’association Tianuni.",
-        },
-      },
-      {
-        src: "/images/manequins.jpg",
-        alt: "festival",
-        label: {
-          title: "Photo de famille des mannequins",
-          text: "Mannequins, réunis dans une posture solennelle pour immortaliser ce moment d’élégance, de fierté et de représentation culturelle. Une image qui célèbre l’unité, la diversité des styles et l’engagement artistique de celles et ceux qui ont porté les créations avec grâce et dignité tout au long de la parade.",
-        },
-      },
-      {
-        src: "/images/presi_talk.jpeg",
-        alt: "festival",
-        label: {
           title:
-            "Mot de bienvenue de la Présidente lors de la 2ieme édition de la soirée afro mandingue le 09 Août2025 à Québec.",
-          text: ` 
-
-Au nom de l’Association Tianuni, je souhaite la bienvenue à toutes et à tous à cette deuxième édition du Festival Afro Mandingue. Nous sommes heureux de vous accueillir à Québec pour célébrer la richesse de nos cultures et la vitalité de nos talents.
-
-Nous exprimons notre profonde gratitude à notre parrain, Monsieur Amadou Kienou, pour son soutien précieux et son engagement envers la promotion du patrimoine mandingue.
-
-Que cette édition soit un moment de partage, de découverte et d’unité.
-
-La Présidente de l’Association Tianuni`,
-        },
-      },
-      {
-        src: "/images/regie_technic.jpg",
-        alt: "festival",
-        label: {
-          title: "La régie technique",
-          text: "La régie technique assurant la gestion du son, de la musique et de la coordination audiovisuelle, garantissant le bon déroulement de l’ensemble des prestations du festival.",
-        },
-      },
-      {
-        src: "/images/concert.jpg",
-        alt: "festival",
-        label: {
-          title: "Prestation d’artistes africains et canadiens",
-          text: "Prestation d’artistes africains et canadiens lors du Festival Afro Mandingue, mettant en valeur la richesse des traditions musicales et le dialogue culturel entre les deux continents.",
+            "Le parrain du festival et la Presidente de l'association Tianuni.",
+          text: "Le parrain du festival, monsieur Amadou Kienou en compagnie de la présidente de l’association Tianuni.",
         },
       },
       {
@@ -86,14 +46,71 @@ Association Tianuni`,
         },
       },
       {
-        src: "/images/img7.jpg",
+        src: "/images/presi.jpg",
         alt: "festival",
         label: {
-          title: "Ben Isaac Compaoré",
+          title:
+            "Mot de bienvenue de la Présidente de l'association lors de la 2ieme édition de la soirée afro mandingue le 09 Août2025 à Québec.",
+          text: ` 
+
+Au nom de l’Association Tianuni, je souhaite la bienvenue à toutes et à tous à cette deuxième édition du Festival Afro Mandingue. Nous sommes heureux de vous accueillir à Québec pour célébrer la richesse de nos cultures et la vitalité de nos talents.
+
+Nous exprimons notre profonde gratitude à notre parrain, Monsieur Amadou Kienou, pour son soutien précieux et son engagement envers la promotion du patrimoine mandingue.
+
+Que cette édition soit un moment de partage, de découverte et d’unité.
+
+La Présidente de l’Association Tianuni`,
+        },
+      },
+      {
+        src: "/images/rubanOfficiel.jpg",
+        alt: "festival",
+        label: {
+          title:
+            "Coupure officielle du ruban lors de l’inauguration de l’Association Tianuni",
+          text: "Coupure officielle du ruban, en présence de la présidente Madame Zio Bintou, du Président de la Chambre de Commerce et d’Industrie Burkinabè au Canada M. Kaboré Désiré et son conseil d’administration, des présidents d’associations et institutions internationales invitées, du délégué suppléant du H.C.B.E. Zone II, ainsi que des membres fondateurs de Tianuni.",
+        },
+      },
+      {
+        src: "/images/manequins.jpg",
+        alt: "festival",
+        label: {
+          title: "Photo de famille des mannequins",
+          text: "Mannequins, réunis dans une posture solennelle pour immortaliser ce moment d’élégance, de fierté et de représentation culturelle. Une image qui célèbre l’unité, la diversité des styles et l’engagement artistique de celles et ceux qui ont porté les créations avec grâce et dignité tout au long de la parade.",
+        },
+      },
+      {
+        src: "/images/styliste.jpg",
+        alt: "festival",
+        label: {
+          title: "Ben Isaac Compaoré le styliste",
           text: "Défilé cérémonial du créateur burkinabè Ben Isaac Compaoré, venu présenter ses œuvres lors de la parade de mode, dans un esprit d’honneur, d’élégance et de valorisation du patrimoine africain.",
         },
       },
-      { src: "/images/manequins2.jpeg", alt: "festival" },
+      {
+        src: "/images/regie_technic.jpg",
+        alt: "festival",
+        label: {
+          title: "La régie technique",
+          text: "La régie technique assurant la gestion du son, de la musique et de la coordination audiovisuelle, garantissant le bon déroulement de l’ensemble des prestations du festival.",
+        },
+      },
+      {
+        src: "/images/concert.jpg",
+        alt: "festival",
+        label: {
+          title: "Prestation d’artistes africains et canadiens",
+          text: "Prestation d’artistes africains et canadiens lors du Festival Afro Mandingue, mettant en valeur la richesse des traditions musicales et le dialogue culturel entre les deux continents.",
+        },
+      },
+      {
+        src: "/images/buffetService.jpg",
+        alt: "atelier cuisine",
+        label: {
+          title: "Moment de partage autour du buffet",
+          text: "Les participants se retrouvent pour savourer des mets variés, échanger, tisser des liens et renforcer la convivialité qui caractérise l’esprit du festival. Un espace de réseautage naturel, où la culture, la gastronomie et les rencontres humaines se rejoignent dans une ambiance chaleureuse et inclusive.",
+        },
+      },
     ],
   },
   {
@@ -133,21 +150,13 @@ Association Tianuni`,
         },
       },
       { src: "/images/img8.jpg", alt: "conference débat" },
-      {
-        src: "/images/rubanOfficiel.jpg",
-        alt: "festival",
-        label: {
-          title:
-            "Coupure officielle du ruban lors de l’inauguration de l’Association Tianuni",
-          text: "Coupure officielle du ruban, en présence de la présidente Madame Zio Bintou, du Président de la Chambre de Commerce et d’Industrie Burkinabè au Canada M. Kaboré Désiré et son conseil d’administration, des présidents d’associations et institutions internationales invitées, du délégué suppléant du H.C.B.E. Zone II, ainsi que des membres fondateurs de Tianuni.",
-        },
-      },
+
       {
         src: "/images/manequins3.jpg",
         alt: "conference débat",
         label: {
           title: "Defilé des manequins",
-          text: "Les manequins des styles et l’engagement artistique de celles et ceux qui ont porté les créations avec grâce et dignité tout au long de la parade.",
+          text: "Les manequins dans les styles et l’engagement artistique de celles et ceux qui ont porté les créations avec grâce et dignité tout au long de la parade.",
         },
       },
       {
@@ -180,6 +189,14 @@ Je vous remercie.`,
         label: {
           title: "Maître de cérémonie",
           text: "Le maître de cérémonie assurant avec brio la présentation et la coordination de la soirée, guidant le public à travers les différentes étapes du programme avec professionnalisme et élégance.",
+        },
+      },
+      {
+        src: "/images/manequins2.jpeg",
+        alt: "festival",
+        label: {
+          title: "Photo de couverture des manequins",
+          text: "Une photo portrait de quelques manequins apres le defilé.",
         },
       },
     ],
@@ -223,7 +240,7 @@ export default async function AlbumPage({
             key={p.src}
             className="overflow-hidden rounded-xl bg-white shadow-sm ring-1 ring-neutral-200"
           >
-            <div className="relative aspect-2/3">
+            <div className="relative aspect-3/3">
               <Image
                 src={p.src}
                 alt={p.alt}
