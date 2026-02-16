@@ -13,7 +13,7 @@ export default function HomePage() {
       <section className="py-6 md:py-10">
         <div className="relative overflow-hidden rounded-3xl border">
           {/* Background photo */}
-          <div className="absolute inset-0 bg-neutral-600 md:aspect-7/6">
+          <div className="absolute inset-0 md:aspect-7/6">
             <Image
               src="/logo2.jpeg"
               alt="Événement culturel Tianuni"
