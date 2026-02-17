@@ -2,13 +2,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import Container from "@/app/components/Container";
-import { SITE } from "./_lib/site";
 import { ROUTES } from "./_lib/siteRoutes";
 import { ACTIVITES_NAV } from "./_lib/nav";
+import Hero from "./components/Hero";
 
 export default function HomePage() {
   return (
     <Container>
+<<<<<<< HEAD
       {/* HERO */}
       <section className="py-6 md:py-10">
         <div className="relative overflow-hidden rounded-3xl border">
@@ -104,6 +105,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+=======
+      <Hero />
+>>>>>>> 20285dc (refactor(ui): Move Hero to its own component and color backgrop color styles)
 
       {/* WHY CHOOSE US */}
       <section className="py-10">
