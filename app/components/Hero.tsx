@@ -26,7 +26,7 @@ export default function Hero() {
 
         <div className="relative grid gap-10 px-6 py-12 md:grid-cols-[340px_1fr] md:px-10 md:py-16">
           {/* Logo block */}
-          <div className="flex items-start md:items-center">
+          <div className="flex justify-center md:justify-start">
             <div className="relative">
               {/* logo badge */}
               <div className="rounded-3xl bg-white p-4 shadow-sm ring-1 ring-neutral-900/5">
@@ -41,7 +41,7 @@ export default function Hero() {
               </div>
 
               {/* tiny label under logo (optional) */}
-              <p className="mt-3 text-xs font-medium tracking-wide text-neutral-600">
+              <p className="mt-3 text-xs font-medium tracking-wide text-neutral-600 text-center">
                 Culture • Unité • Richesse
               </p>
             </div>
