@@ -141,7 +141,7 @@ export default function Hero() {
         {/* Background photo */}
         <div className="absolute inset-0">
           <Image
-            src="/images/rubanOfficiel.jpg"
+            src="/gallery/foire.jpeg"
             alt="Événement culturel Tianuni"
             fill
             priority
@@ -172,7 +172,7 @@ export default function Hero() {
           <div className="mt-7 flex flex-wrap gap-3">
             <Link
               href={ROUTES.activities}
-              className="rounded-md bg-[#5b280d] px-4 py-2.5 text-sm font-medium text-neutral-50 shadow-sm hover:bg-[#6b3f23] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/80"
+              className="rounded-md bg-orange-600 px-4 py-2.5 text-sm font-medium text-neutral-50 shadow-sm hover:bg-[#6b3f23] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/80"
             >
               Découvrir nos activités
             </Link>
