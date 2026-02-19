@@ -25,19 +25,19 @@ export default function HomePage() {
           </div>
 
           <div className="grid gap-3">
-            <div className="rounded-xl border p-5">
+            <div className="rounded-xl border border-red-100 bg-white p-5">
               <div className="font-medium">Découvrir & partager</div>
               <p className="mt-2 text-sm text-neutral-700">
                 Traditions, histoires, valeurs — dans un esprit d’échange.
               </p>
             </div>
-            <div className="rounded-xl border p-5">
+            <div className="rounded-xl border border-red-100 bg-white p-5">
               <div className="font-medium">Créer des liens</div>
               <p className="mt-2 text-sm text-neutral-700">
                 Rencontres interculturelles et activités pour tous les âges.
               </p>
             </div>
-            <div className="rounded-xl border p-5">
+            <div className="rounded-xl border border-red-100 bg-white p-5">
               <div className="font-medium">
                 Soutenir une initiative inclusive
               </div>
