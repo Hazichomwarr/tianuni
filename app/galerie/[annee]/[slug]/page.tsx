@@ -103,14 +103,14 @@ La Présidente de l’Association Tianuni`,
           text: "Prestation d’artistes africains et canadiens lors du Festival Afro Mandingue, mettant en valeur la richesse des traditions musicales et le dialogue culturel entre les deux continents.",
         },
       },
-      {
-        src: "/images/buffetService.jpg",
-        alt: "atelier cuisine",
-        label: {
-          title: "Moment de partage autour du buffet",
-          text: "Les participants se retrouvent pour savourer des mets variés, échanger, tisser des liens et renforcer la convivialité qui caractérise l’esprit du festival. Un espace de réseautage naturel, où la culture, la gastronomie et les rencontres humaines se rejoignent dans une ambiance chaleureuse et inclusive.",
-        },
-      },
+      // {
+      //   src: "/images/buffetService.jpg",
+      //   alt: "atelier cuisine",
+      //   label: {
+      //     title: "Moment de partage autour du buffet",
+      //     text: "Les participants se retrouvent pour savourer des mets variés, échanger, tisser des liens et renforcer la convivialité qui caractérise l’esprit du festival. Un espace de réseautage naturel, où la culture, la gastronomie et les rencontres humaines se rejoignent dans une ambiance chaleureuse et inclusive.",
+      //   },
+      // },
     ],
   },
   {
@@ -127,15 +127,15 @@ La Présidente de l’Association Tianuni`,
       { src: "/images/img5.jpg", alt: "atelier cuisine" },
       { src: "/images/img6.jpg", alt: "atelier cuisine" },
       { src: "/images/img2.jpg", alt: "atelier cuisine" },
-      {
-        src: "/images/kakemono.jpg",
-        alt: "conference débat",
-        label: {
-          title: "Le kakémono de l’Association Tianuni",
-          text: "Symbole de notre engagement pour la culture, l’unité et la transmission des valeurs mandingues au sein de la communauté.",
-        },
-      },
-      { src: "/images/img23.jpeg", alt: "conference débat" },
+      // {
+      //   src: "/images/kakemono.jpg",
+      //   alt: "conference débat",
+      //   label: {
+      //     title: "Le kakémono de l’Association Tianuni",
+      //     text: "Symbole de notre engagement pour la culture, l’unité et la transmission des valeurs mandingues au sein de la communauté.",
+      //   },
+      // },
+      // { src: "/images/img23.jpeg", alt: "conference débat" },
     ],
   },
   {
@@ -151,14 +151,14 @@ La Présidente de l’Association Tianuni`,
       },
       { src: "/images/img8.jpg", alt: "conference débat" },
 
-      {
-        src: "/images/manequins3.jpg",
-        alt: "conference débat",
-        label: {
-          title: "Defilé des manequins",
-          text: "Les manequins dans les styles et l’engagement artistique de celles et ceux qui ont porté les créations avec grâce et dignité tout au long de la parade.",
-        },
-      },
+      // {
+      //   src: "/images/manequins3.jpg",
+      //   alt: "conference débat",
+      //   label: {
+      //     title: "Defilé des manequins",
+      //     text: "Les manequins dans les styles et l’engagement artistique de celles et ceux qui ont porté les créations avec grâce et dignité tout au long de la parade.",
+      //   },
+      // },
       {
         src: "/images/img15.jpg",
         alt: "conference débat",
@@ -191,14 +191,14 @@ Je vous remercie.`,
           text: "Le maître de cérémonie assurant avec brio la présentation et la coordination de la soirée, guidant le public à travers les différentes étapes du programme avec professionnalisme et élégance.",
         },
       },
-      {
-        src: "/images/manequins2.jpeg",
-        alt: "festival",
-        label: {
-          title: "Photo de couverture des manequins",
-          text: "Une photo portrait de quelques manequins apres le defilé.",
-        },
-      },
+      // {
+      //   src: "/images/manequins2.jpeg",
+      //   alt: "festival",
+      //   label: {
+      //     title: "Photo de couverture des manequins",
+      //     text: "Une photo portrait de quelques manequins apres le defilé.",
+      //   },
+      // },
     ],
   },
 ];

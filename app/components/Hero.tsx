@@ -141,11 +141,11 @@ export default function Hero() {
         {/* Background photo */}
         <div className="absolute inset-0">
           <Image
-            src="/logo2.jpeg"
+            src="/images/rubanOfficiel.jpg"
             alt="Événement culturel Tianuni"
             fill
             priority
-            className="object-contain"
+            className="object-cover"
             sizes="(max-width: 768px) 100vw, 1100px"
           />
           {/* Dark overlays for readability */}
