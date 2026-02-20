@@ -38,18 +38,31 @@ export default function ContactPage() {
           <h2 className="text-xl font-semibold tracking-tight">
             Formulaire de contact
           </h2>
-          <p className="mt-2 text-neutral-700">
+          {/* <p className="mt-2 text-neutral-700">
             Vous pouvez nous contacter directement par email ou téléphone. Un
             formulaire de contact sera bientôt disponible sur cette page.
-          </p>
+          </p> */}
 
           {/* Visual placeholder (kept intentionally minimal) */}
-          <div className="mt-4 grid gap-3">
+          {/* <div className="mt-4 grid gap-3">
             <div className="h-10 rounded-md bg-neutral-100" />
             <div className="h-10 rounded-md bg-neutral-100" />
             <div className="h-28 rounded-md bg-neutral-100" />
             <div className="h-10 w-40 rounded-md bg-neutral-300" />
-          </div>
+          </div> */}
+          <p className="mt-2 text-neutral-700">
+            Devenez membre de notre association
+            <div className="mt-6">
+              <a
+                href="https://forms.gle/REAs18p4qVLP7a699"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-md bg-amber-600 px-5 py-2.5 text-sm font-medium text-white hover:bg-amber-700"
+              >
+                S'inscrire
+              </a>
+            </div>
+          </p>
         </section>
       </div>
     </Container>
