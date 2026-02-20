@@ -12,7 +12,7 @@ export default function HomePage() {
       <Hero />
 
       {/* WHY CHOOSE US */}
-      <section className="py-10">
+      <section className="py-10 bg-neutral-200">
         <div className="grid gap-10 md:grid-cols-2 md:items-start">
           <div>
             <h2 className="text-2xl font-semibold tracking-tight md:text-3xl">
@@ -25,19 +25,19 @@ export default function HomePage() {
           </div>
 
           <div className="grid gap-3">
-            <div className="rounded-xl border border-red-600 bg-white p-5">
+            <div className="rounded-xl border border-red-400 bg-white p-5">
               <div className="font-medium">Découvrir & partager</div>
               <p className="mt-2 text-sm text-neutral-700">
                 Traditions, histoires, valeurs — dans un esprit d’échange.
               </p>
             </div>
-            <div className="rounded-xl border border-red-600 bg-white p-5">
+            <div className="rounded-xl border border-red-400 bg-white p-5">
               <div className="font-medium">Créer des liens</div>
               <p className="mt-2 text-sm text-neutral-700">
                 Rencontres interculturelles et activités pour tous les âges.
               </p>
             </div>
-            <div className="rounded-xl border border-red-600 bg-white p-5">
+            <div className="rounded-xl border border-red-400 bg-white p-5">
               <div className="font-medium">
                 Soutenir une initiative inclusive
               </div>

@@ -29,7 +29,7 @@ export default async function GalerieAnneePage({
     <Container>
       <h1 className="text-3xl font-semibold tracking-tight">Galerie {annee}</h1>
       <p className="mt-3 max-w-2xl text-neutral-700">
-        Sélection d’albums photos de nos festivités et activités.
+        Sélection d’albums photos de nos activités et festivités.
       </p>
 
       <div className="mt-8 grid gap-4 md:grid-cols-2">

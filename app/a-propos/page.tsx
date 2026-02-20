@@ -60,7 +60,7 @@ function AdminCard({ name, role, qualifications, image }: Administrator) {
   // const isPresi = name.includes("Bintou");
   return (
     <div className={`overflow-hidden rounded-2xl border bg-white`}>
-      <div className={`relative aspect-square w-full bg-neutral-100`}>
+      <div className={`relative aspect-3/3 w-full bg-neutral-100`}>
         <Image
           src={image}
           alt={`${name} — ${role}`}
@@ -76,7 +76,7 @@ function AdminCard({ name, role, qualifications, image }: Administrator) {
         <div className="text-base font-semibold tracking-tight">{name}</div>
         <div className="mt-1 text-sm font-medium text-neutral-800">{role}</div>
 
-        {/* Collapsible */}
+        {/* Collapsible  */}
         {/* <details className="mt-3">
           <summary className="cursor-pointer text-sm font-medium border px-3 py-1.5 w-fit rounded-lg text-neutral-700  hover:text-neutral-900">
             Lire plus
