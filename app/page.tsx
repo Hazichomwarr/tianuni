@@ -5,12 +5,13 @@ import Container from "@/app/components/Container";
 import { ROUTES } from "./_lib/siteRoutes";
 import { ACTIVITES_NAV } from "./_lib/nav";
 import Hero from "./components/Hero";
+import Pillars from "./components/Pillars";
 
 export default function HomePage() {
   return (
     <Container>
       <Hero />
-
+      <Pillars />
       {/* WHY CHOOSE US */}
       <section className="py-10 bg-neutral-200">
         <div className="grid gap-10 md:grid-cols-2 md:items-start">
