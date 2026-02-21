@@ -39,7 +39,7 @@ export default function Hero() {
           <div className="mt-7 flex flex-wrap gap-3">
             <Link
               href={ROUTES.activities}
-              className="rounded-md bg-orange-600 px-4 py-2.5 text-sm font-medium text-neutral-50 shadow-sm hover:bg-[#6b3f23] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/80"
+              className="rounded-md bg-red-700 px-4 py-2.5 text-sm font-medium text-neutral-50 shadow-sm hover:bg-[#6b3f23] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/80"
             >
               Découvrir nos activités
             </Link>

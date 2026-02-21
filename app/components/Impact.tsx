@@ -27,7 +27,7 @@ export default function Impact() {
             <Link
               key={i.slug}
               href={`/impact/${i.slug}`}
-              className="group rounded-xl border border-rose-900 bg-white p-5 transition hover:-translate-y-0.5 hover:shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-900/20"
+              className="group rounded-xl border border-rose-800 bg-white p-5 transition hover:-translate-y-0.5 hover:shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-900/20"
             >
               <div className="font-medium text-neutral-900">{i.title}</div>
               <p className="mt-2 text-sm text-neutral-700 leading-relaxed">
