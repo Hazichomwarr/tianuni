@@ -8,8 +8,8 @@ export const HEADER_NAV: NavItem[] = [
   { label: "À propos", href: ROUTES.about },
   { label: "Activités", href: ROUTES.activities },
   { label: "Galerie", href: ROUTES.gallery },
-  // { label: "Participer", href: ROUTES.participate },
-  // { label: "Contact", href: ROUTES.contact },
+  { label: "Mission", href: ROUTES.mission },
+  { label: "Impact", href: ROUTES.impact },
 ];
 
 export const ACTIVITES_NAV: NavItem[] = [

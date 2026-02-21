@@ -6,50 +6,18 @@ import { ROUTES } from "./_lib/siteRoutes";
 import { ACTIVITES_NAV } from "./_lib/nav";
 import Hero from "./components/Hero";
 import Pillars from "./components/Pillars";
+import Impact from "./components/Impact";
 
 export default function HomePage() {
   return (
     <Container>
       <Hero />
-      <Pillars />
-      {/* WHY CHOOSE US */}
-      <section className="py-10 px-4 rounded-2xl bg-neutral-200">
-        <div className="grid gap-10 md:grid-cols-2 md:items-start">
-          <div>
-            <h2 className="text-2xl font-semibold tracking-tight md:text-3xl">
-              Pourquoi nous choisir ?
-            </h2>
-            <p className="mt-3 max-w-xl text-neutral-700">
-              Parce que la culture rapproche. Tianuni crée des espaces concrets
-              où l’on découvre, partage et construit des liens durables.
-            </p>
-          </div>
 
-          <div className="grid gap-3">
-            <div className="rounded-xl border border-red-400 bg-white p-5">
-              <div className="font-medium">Découvrir & partager</div>
-              <p className="mt-2 text-sm text-neutral-700">
-                Traditions, histoires, valeurs — dans un esprit d’échange.
-              </p>
-            </div>
-            <div className="rounded-xl border border-red-400 bg-white p-5">
-              <div className="font-medium">Créer des liens</div>
-              <p className="mt-2 text-sm text-neutral-700">
-                Rencontres interculturelles et activités pour tous les âges.
-              </p>
-            </div>
-            <div className="rounded-xl border border-red-400 bg-white p-5">
-              <div className="font-medium">
-                Soutenir une initiative inclusive
-              </div>
-              <p className="mt-2 text-sm text-neutral-700">
-                Une approche qui valorise l’inclusion, la diversité et le
-                respect.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* MISSION */}
+      <Pillars />
+
+      {/* WHY CHOOSE US */}
+      <Impact />
 
       {/* ACTIVITIES */}
       <section className="py-10">
