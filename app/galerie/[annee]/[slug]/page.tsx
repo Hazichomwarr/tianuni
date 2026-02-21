@@ -16,7 +16,7 @@ const PICTURES: Pictures = [
     slug: "festival-origines",
     albums: [
       {
-        src: "/images/parrain&presi.jpg",
+        src: "/gallery/presi&parrain2.jpg",
         alt: "festival",
         label: {
           title:
@@ -87,14 +87,15 @@ La Présidente de l’Association Tianuni`,
           text: "Défilé cérémonial du créateur burkinabè Ben Isaac Compaoré, venu présenter ses œuvres lors de la parade de mode, dans un esprit d’honneur, d’élégance et de valorisation du patrimoine africain.",
         },
       },
-      {
-        src: "/images/regie_technic.jpg",
-        alt: "festival",
-        label: {
-          title: "La régie technique",
-          text: "La régie technique assurant la gestion du son, de la musique et de la coordination audiovisuelle, garantissant le bon déroulement de l’ensemble des prestations du festival.",
-        },
-      },
+      { src: "/gallery/concert.jpeg", alt: "festival" },
+      // {
+      //   src: "/images/regie_technic.jpg",
+      //   alt: "festival",
+      //   label: {
+      //     title: "La régie technique",
+      //     text: "La régie technique assurant la gestion du son, de la musique et de la coordination audiovisuelle, garantissant le bon déroulement de l’ensemble des prestations du festival.",
+      //   },
+      // },
       {
         src: "/images/concert.jpg",
         alt: "festival",
@@ -103,10 +104,7 @@ La Présidente de l’Association Tianuni`,
           text: "Prestation d’artistes africains et canadiens lors du Festival Afro Mandingue, mettant en valeur la richesse des traditions musicales et le dialogue culturel entre les deux continents.",
         },
       },
-      {
-        src: "/gallery/whiteWoman.jpeg",
-        alt: "atelier cuisine",
-      },
+      { src: "/gallery/concert2.jpeg", alt: "festival" },
     ],
   },
   {

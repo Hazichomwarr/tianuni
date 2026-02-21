@@ -13,7 +13,7 @@ type Administrator = {
 
 const ADMINISTRATEURS: Administrator[] = [
   {
-    name: "Bintou Zio Gouba",
+    name: "Bintou Zio",
     role: "Présidente de l’Association Tianuni",
     qualifications:
       "Superviseure en entretien ménager, conseillère en techniques de gestion hôtelière et gestionnaire événementielle.",
@@ -107,9 +107,9 @@ export default function AproposPage() {
       <section className="mt-12">
         <h2 className="text-2xl font-semibold tracking-tight">Notre équipe</h2>
         <p className="mt-2 max-w-2xl text-neutral-700">
-          L’équipe d’administration de Tianuni travaille à valoriser les
-          cultures d’origines afro et à renforcer le dialogue interculturel au
-          Québec.
+          L’équipe du conseil d’Administration de Tianuni travaille à valoriser
+          les cultures d’origines afro et à renforcer le dialogue interculturel
+          au Québec.
         </p>
 
         <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

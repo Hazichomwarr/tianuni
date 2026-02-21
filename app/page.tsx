@@ -13,7 +13,7 @@ export default function HomePage() {
       <Hero />
       <Pillars />
       {/* WHY CHOOSE US */}
-      <section className="py-10 bg-neutral-200">
+      <section className="py-10 px-4 rounded-2xl bg-neutral-200">
         <div className="grid gap-10 md:grid-cols-2 md:items-start">
           <div>
             <h2 className="text-2xl font-semibold tracking-tight md:text-3xl">
@@ -118,16 +118,16 @@ export default function HomePage() {
           <div className="mt-8 grid gap-3 md:grid-cols-3">
             {[
               {
-                src: "/gallery/event_3.jpeg",
+                src: "/gallery/guests.jpeg",
                 alt: "Souvenir d’un événement Tianuni",
               },
               {
-                src: "/gallery/event_2.jpeg",
-                alt: "Atelier et échanges culturels",
+                src: "/gallery/presi&guests.jpeg",
+                alt: "Moment fort de la communauté",
               },
               {
-                src: "/gallery/event_1.jpeg",
-                alt: "Moment fort de la communauté",
+                src: "/gallery/guests2.jpeg",
+                alt: "Atelier et échanges culturels",
               },
             ].map((img) => (
               <div

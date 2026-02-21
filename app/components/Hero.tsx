@@ -2,14 +2,15 @@ import Image from "next/image";
 import { SITE } from "../_lib/site";
 import { ROUTES } from "../_lib/siteRoutes";
 import Link from "next/link";
+import Container from "./Container";
 
 // components/Hero.tsx
 export default function Hero() {
   return (
-    <section className="py-24 px-12 bg-neutral-200 md:py-10">
-      <div className="grid gap-6 md:grid-cols-2-reverse md:place-items-center">
+    <section className="py-12 px-2 bg-neutral-200 rounded-2xl md:py-10">
+      <Container>
         {/* Content */}
-        <div className="px-6 py-14 md:px-10 md:py-20">
+        <div className="p-6">
           <p className="text-sm font-extrabold text-red-700">
             CULTURES &amp; ORIGINES
           </p>
@@ -17,25 +18,24 @@ export default function Hero() {
           <h1 className="mt-3 max-w-3xl text-2xl font-semibold tracking-tight md:text-5xl">
             Valoriser les cultures d’origines afro et créer des liens au Québec
           </h1>
-
-          <p className="mt-5 max-w-2xl text-base leading-relaxed">
-            {SITE.name} est une association basée à Québec. Nous célébrons la
-            richesse des cultures afro, tout en favorisant le dialogue et le
-            brassage culturel avec la culture québécoise.
-          </p>
         </div>
 
         {/* Background photo */}
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-4">
           <Image
             src="/images/rubanOfficiel.jpg"
             alt="Événement culturel Tianuni"
-            width={845}
+            width={1024}
             height={845}
             priority
             className="object-cover rounded-xl"
             sizes="(max-width: 768px) 100vw, 1100px"
           />
+          <p className="mt-5 max-w-2xl text-base leading-relaxed">
+            {SITE.name} est une association basée à Québec. Nous célébrons la
+            richesse des cultures afro, tout en favorisant le dialogue et le
+            brassage culturel avec la culture québécoise.
+          </p>
           <div className="mt-7 flex flex-wrap gap-3">
             <Link
               href={ROUTES.activities}
@@ -70,7 +70,7 @@ export default function Hero() {
             </span>
           </div>
         </div>
-      </div>
+      </Container>
     </section>
   );
 }

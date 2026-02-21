@@ -15,6 +15,6 @@ export const SITE = {
       href: "tel:+18193199648",
     },
   ],
-  email: "contact@associationtianuni.com",
+  email: "contact@association-tianuni.com",
   website: "www.associationtianuni.com",
 } as const;
