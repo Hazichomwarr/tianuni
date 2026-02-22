@@ -21,7 +21,7 @@ export default function ImpactPage() {
         {IMPACT.map((i) => (
           <Link
             key={i.slug}
-            href={`/notre-impact/${i.slug}`}
+            href={`/impact/${i.slug}`}
             className="group rounded-xl border bg-white p-6 transition hover:-translate-y-0.5 hover:shadow-md"
           >
             <div className="text-lg font-semibold tracking-tight">
