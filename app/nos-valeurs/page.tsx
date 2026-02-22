@@ -17,6 +17,9 @@ export default function ValeursPage() {
           className="rounded-xl border p-6 hover:shadow-md"
         >
           Inclusion & diversité
+          <div className="mt-8 text-sm font-medium text-neutral-600 cursor-pointer hover:underline">
+            Lire plus →
+          </div>
         </Link>
 
         <Link
@@ -24,6 +27,9 @@ export default function ValeursPage() {
           className="rounded-xl border p-6 hover:shadow-md"
         >
           Transmission
+          <div className="mt-8 text-sm font-medium text-neutral-600 cursor-pointer hover:underline">
+            Lire plus →
+          </div>
         </Link>
 
         <Link
@@ -31,6 +37,9 @@ export default function ValeursPage() {
           className="rounded-xl border p-6 hover:shadow-md"
         >
           Dialogue interculturel
+          <div className="mt-8 text-sm font-medium text-neutral-600 cursor-pointer hover:underline">
+            Lire plus →
+          </div>
         </Link>
       </div>
     </Container>
