@@ -11,8 +11,8 @@ export const SITE = {
       href: "tel:+14189053692",
     },
     {
-      label: "+1 (819) 319-9648",
-      href: "tel:+18193199648",
+      label: "+1 (438) 304-9466",
+      href: "tel:+4383049466",
     },
   ],
   email: "contact@association-tianuni.com",
