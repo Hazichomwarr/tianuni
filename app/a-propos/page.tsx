@@ -17,7 +17,7 @@ const ADMINISTRATEURS: Administrator[] = [
     role: "Présidente de l’Association Tianuni",
     qualifications:
       "Superviseure en entretien ménager, conseillère en techniques de gestion hôtelière et gestionnaire événementielle.",
-    image: "/admin/presi4.jpg",
+    image: "/admin/presi05.jpg",
   },
   {
     name: "M. GOUSSA Adama Gérard",
