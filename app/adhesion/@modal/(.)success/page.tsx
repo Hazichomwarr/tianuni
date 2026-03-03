@@ -10,10 +10,10 @@ export default function SuccessModal() {
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
       <div className="bg-white rounded-xl px-10 py-6 max-w-md shadow-lg">
         <h3 className="text-lg font-semibold tracking-tight">
-          Enregistrement reussit! 🎉{" "}
+          Enregistrement reussit! ✅{" "}
         </h3>
         <p className="mt-4">
-          Felicitations et Bienvenue dans la communauté TIANUNI.
+          Felicitations et Bienvenue dans la communauté TIANUNI. 🎉
           <p>
             En tant que membre, vous avez le droit de participer aux assemblées
             générales et de voter sur les décisions de l{"'"}
