@@ -52,16 +52,17 @@ export default function ContactPage() {
           </div> */}
           <p className="mt-2 text-neutral-700">
             Devenez membre de notre association
-            <div className="mt-6">
+            <span className="mt-6 block">
               <a
-                href="https://forms.gle/REAs18p4qVLP7a699"
+                // href="https://forms.gle/REAs18p4qVLP7a699"
+                href="/adhesion"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-md bg-black px-5 py-2.5 text-base font-medium text-neutral-50 hover:bg-black/80"
               >
-                S'inscrire
+                S&apos;inscrire
               </a>
-            </div>
+            </span>
           </p>
         </section>
       </div>
