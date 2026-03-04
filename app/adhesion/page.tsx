@@ -13,6 +13,7 @@
 
 // app/adhesion/page.tsx
 import Container from "@/app/components/Container";
+import Link from "next/link";
 
 export default function AdhesionPage() {
   return (
@@ -21,14 +22,32 @@ export default function AdhesionPage() {
       <p className="mt-3 max-w-2xl text-neutral-700">
         Remplissez le formulaire ci-dessous pour devenir membre.
       </p>
+      <p className="mt-4 text-neutral-700 mx-auto">
+        Apres avoir remplit le formulaire,
+        <Link
+          href="/payment"
+          className="text-blue-800 font-semibold hover:underline"
+        >
+          Cliquer ici
+        </Link>{" "}
+        pour finaliser votre adhésion.
+      </p>
 
-      <div className="mt-8 overflow-hidden rounded-xl border bg-white">
+      <div className="mt-8 overflow-hidden rounded-xl border border-neutral-300 bg-white shadow-sm">
         <iframe
           src="https://forms.gle/REAs18p4qVLP7a699"
-          className="h-200 w-full"
+          className="h-275 w-full"
           loading="lazy"
         />
       </div>
+
+      <a
+        href="/payment"
+        className="inline-block mt-12 rounded-md bg-black px-5 py-2.5 text-base font-medium text-neutral-50 hover:bg-black/80"
+      >
+        {" "}
+        Finaliser votre adhésion
+      </a>
     </Container>
   );
 }

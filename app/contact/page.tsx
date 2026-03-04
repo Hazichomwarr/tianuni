@@ -38,18 +38,7 @@ export default function ContactPage() {
           <h2 className="text-xl font-semibold tracking-tight">
             Formulaire de contact
           </h2>
-          {/* <p className="mt-2 text-neutral-700">
-            Vous pouvez nous contacter directement par email ou téléphone. Un
-            formulaire de contact sera bientôt disponible sur cette page.
-          </p> */}
 
-          {/* Visual placeholder (kept intentionally minimal) */}
-          {/* <div className="mt-4 grid gap-3">
-            <div className="h-10 rounded-md bg-neutral-100" />
-            <div className="h-10 rounded-md bg-neutral-100" />
-            <div className="h-28 rounded-md bg-neutral-100" />
-            <div className="h-10 w-40 rounded-md bg-neutral-300" />
-          </div> */}
           <p className="mt-2 text-neutral-700">
             Devenez membre de notre association
             <span className="mt-6 block">
