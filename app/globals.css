@@ -20,7 +20,50 @@
 }
 
 body {
-  /* background: var(--background);
-  color: var(--foreground); */
+  background: var(--background);
+  color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* === Global dark-mode override for hard-coded neutral text === */
+@media (prefers-color-scheme: dark) {
+  /* remap the common "neutral" text utilities to lighter colors */
+  .text-neutral-900,
+  .text-neutral-800,
+  .text-neutral-700,
+  .text-neutral-600,
+  .text-neutral-500 {
+    color: var(--foreground) !important;
+  }
+
+  /* optional: make muted text still muted but readable */
+  .text-neutral-600,
+  .text-neutral-500 {
+    color: color-mix(in srgb, var(--foreground) 75%, transparent) !important;
+  }
+
+  /* borders + card surfaces that assume light mode */
+  .border,
+  .border-neutral-200,
+  .border-neutral-300 {
+    border-color: color-mix(
+      in srgb,
+      var(--foreground) 18%,
+      transparent
+    ) !important;
+  }
+
+  .bg-white {
+    background-color: #0f0f0f !important;
+  }
+
+  .bg-neutral-50,
+  .bg-neutral-100 {
+    background-color: #141414 !important;
+  }
+
+  /* hover surfaces used in cards/links */
+  .hover\:bg-neutral-50:hover {
+    background-color: rgba(255, 255, 255, 0.06) !important;
+  }
 }

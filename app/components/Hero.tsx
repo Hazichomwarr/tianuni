@@ -7,7 +7,7 @@ import Container from "./Container";
 // components/Hero.tsx
 export default function Hero() {
   return (
-    <section className="py-12 px-2 bg-neutral-200 rounded-2xl dark:bg-neutral-900 md:py-10">
+    <section className="py-12 px-2 bg-neutral-50 rounded-2xl dark:bg-neutral-900 md:py-10">
       <Container>
         {/* Content */}
         <div className="p-6">
@@ -57,12 +57,12 @@ export default function Hero() {
             </Link>
           </div>
 
-          <div className="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-sm text-black/80">
+          <div className="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-sm text-black/80 dark:text-neutral-300">
             <span>📍 {SITE.address}</span>
             <span>
               📧{" "}
               <a
-                className="underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/80"
+                className="underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/80 dark:text-neutral-300"
                 href={`mailto:${SITE.email}`}
               >
                 {SITE.email}
