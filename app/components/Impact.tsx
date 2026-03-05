@@ -4,7 +4,7 @@ import { ROUTES } from "../_lib/siteRoutes";
 
 export default function Impact() {
   return (
-    <section className="py-10 px-4 rounded-2xl bg-neutral-200">
+    <section className="py-10 px-4 rounded-2xl bg-neutral-200 dark:bg-neutral-900">
       <div className="grid gap-10 md:grid-cols-2 md:items-start">
         <div>
           <h2 className="text-2xl font-semibold tracking-tight md:text-3xl">

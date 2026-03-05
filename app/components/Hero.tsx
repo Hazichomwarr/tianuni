@@ -7,7 +7,7 @@ import Container from "./Container";
 // components/Hero.tsx
 export default function Hero() {
   return (
-    <section className="py-12 px-2 bg-neutral-200 rounded-2xl md:py-10">
+    <section className="py-12 px-2 bg-neutral-200 rounded-2xl dark:bg-neutral-900 md:py-10">
       <Container>
         {/* Content */}
         <div className="p-6">

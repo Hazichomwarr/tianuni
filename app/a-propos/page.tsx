@@ -59,8 +59,12 @@ const ADMINISTRATEURS: Administrator[] = [
 function AdminCard({ name, role, qualifications, image }: Administrator) {
   // const isPresi = name.includes("Bintou");
   return (
-    <div className={`overflow-hidden rounded-2xl border bg-white`}>
-      <div className={`relative aspect-3/3 w-full bg-neutral-100`}>
+    <div
+      className={`overflow-hidden rounded-2xl border bg-white dark:bg-neutral-900`}
+    >
+      <div
+        className={`relative aspect-3/3 w-full bg-neutral-100 dark:bg-neutral-900`}
+      >
         <Image
           src={image}
           alt={`${name} — ${role}`}
@@ -104,7 +108,7 @@ export default function AproposPage() {
         québécoise.
       </p>
 
-      <section className="mt-12">
+      <section className="mt-12 dark:bg-neutral-900">
         <h2 className="text-2xl font-semibold tracking-tight">Notre équipe</h2>
         <p className="mt-2 max-w-2xl text-neutral-700">
           L’équipe du conseil d’Administration de Tianuni travaille à valoriser
