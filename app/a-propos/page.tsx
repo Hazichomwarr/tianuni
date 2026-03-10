@@ -19,13 +19,13 @@ const ADMINISTRATEURS: Administrator[] = [
       "Superviseure en entretien ménager, conseillère en techniques de gestion hôtelière et gestionnaire événementielle.",
     image: "/admin/presi05.jpg",
   },
-  {
-    name: "M. GOUSSA Adama Gérard",
-    role: "Vice-président – Relations extérieures et affaires culturelles",
-    qualifications:
-      "Gestionnaire de formation, agent dans les secteurs de l’aviation et des télécommunications, spécialisé en marketing digital. Promoteur de la start-up G. Carrière Group.Membre actif de l’Union Panafricaine de la Jeunesse et Secrétaire Général de l’Association des Burkinabè du Grand Montréal (ABGM)",
-    image: "/admin/admin_5.jpg",
-  },
+  // {
+  //   name: "M. GOUSSA Adama Gérard",
+  //   role: "Vice-président – Relations extérieures et affaires culturelles",
+  //   qualifications:
+  //     "Gestionnaire de formation, agent dans les secteurs de l’aviation et des télécommunications, spécialisé en marketing digital. Promoteur de la start-up G. Carrière Group.Membre actif de l’Union Panafricaine de la Jeunesse et Secrétaire Général de l’Association des Burkinabè du Grand Montréal (ABGM)",
+  //   image: "/admin/admin_5.jpg",
+  // },
   {
     name: "Nabede Mereza",
     role: "Coordination générale : supervision de l’ensemble des activités, gestion des imprévus et suivi du plan d’action de l’Association Tianuni",
