@@ -20,7 +20,7 @@ export default async function AdminPage() {
         </p>
         <a
           href="/api/admin/export"
-          className="rounded bg-neutral-900 px-4 py-2 text-white cursor-pointer hover:underline"
+          className="rounded bg-neutral-900 px-4 py-2 text-white text-sm cursor-pointer hover:underline"
         >
           Exporter CSV
         </a>
