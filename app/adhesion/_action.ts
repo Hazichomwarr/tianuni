@@ -3,6 +3,7 @@
 import { redirect } from "next/navigation";
 import { ActionState } from "../components/MemberForm";
 import { prisma } from "@/app/_lib/prisma";
+import { checkIsOldEnough } from "../_lib/isOldEnough";
 
 function s(v: FormDataEntryValue | null) {
   return typeof v === "string" ? v.trim() : "";
@@ -41,6 +42,8 @@ export async function registerMember(
   if (firstName.length < 2) errors.firstName = "Prénom requis.";
   if (address.length < 5) errors.address = "Adresse requise.";
   if (!birthDate) errors.birthDate = "Date de naissance requise.";
+  if (!checkIsOldEnough(birthDate))
+    errors.birthDate = "Au moins 16 ans pour adherer.";
   if (!memberType) errors.memberType = "Choisissez un type de membre.";
 
   if (email && !isEmail(email)) errors.email = "Email invalide.";
