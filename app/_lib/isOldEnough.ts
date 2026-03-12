@@ -1,4 +1,4 @@
-export const checkIsOldEnough = (dateString): boolean => {
+export const checkIsOldEnough = (dateString: string): boolean => {
   const birthDate = new Date(dateString);
   const today = new Date();
 
