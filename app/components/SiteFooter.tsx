@@ -64,6 +64,11 @@ export default function SiteFooter() {
                   Contact
                 </Link>
               </li>
+              <li>
+                <Link className="hover:underline" href="/admin">
+                  Admin
+                </Link>
+              </li>
             </ul>
           </div>
 
