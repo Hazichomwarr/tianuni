@@ -2,6 +2,7 @@
 
 import { redirect } from "next/navigation";
 import { ActionState } from "../components/MemberForm";
+import { prisma } from "@/app/_lib/prisma";
 
 function s(v: FormDataEntryValue | null) {
   return typeof v === "string" ? v.trim() : "";
@@ -11,8 +12,6 @@ function isEmail(email: string) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
 
-// NOTE: For MVP, we just validate + redirect.
-// Later, we’ll store in DB/Sheet and create Stripe payment.
 export async function registerMember(
   _prevState: ActionState,
   formData: FormData,
@@ -29,7 +28,8 @@ export async function registerMember(
   // checkbox group: motivations
   const motivations = formData.getAll("motivations").map((v) => String(v));
 
-  const agreed = s(formData.get("agreement")); // "on" if checked
+  const agreementAccepted = s(formData.get("agreement")); // "on" if checked
+  const paymentAccepted = s(formData.get("payment"));
   const honey = s(formData.get("company")); // honeypot
 
   // Anti-spam: if bot filled hidden field, silently redirect
@@ -44,20 +44,53 @@ export async function registerMember(
   if (!memberType) errors.memberType = "Choisissez un type de membre.";
 
   if (email && !isEmail(email)) errors.email = "Email invalide.";
-  if (phone && phone.length < 7) errors.phone = "Téléphone invalide.";
+  if (phone.length < 7) errors.phone = "Téléphone invalide.";
 
   if (motivations.length === 0)
     errors.motivations = "Choisissez au moins une motivation.";
-  if (agreed !== "on")
+  if (agreementAccepted !== "on")
     errors.agreement = "Veuillez confirmer votre engagement.";
+  if (paymentAccepted !== "on")
+    errors.payment = "Vous devez accepter de payer les frais d'adhesion.";
 
   if (Object.keys(errors).length) {
     return { ok: false as const, errors };
   }
 
-  console.log(lastName, firstName, agreed, motivations);
+  console.log(lastName, firstName, agreementAccepted, motivations);
+
+  //Prevent duplicates
+  const existing = await prisma.member.findFirst({
+    where: {
+      OR: [{ email: email || undefined }, { phone }],
+    },
+  });
+
+  if (existing) {
+    return {
+      ok: false as const,
+      errors: { email: "Un membre avec cet email ou téléphone existe déjà." },
+    };
+  }
+
+  // Store member request (DB)
+  await prisma.member.create({
+    data: {
+      lastName,
+      firstName,
+      address,
+      birthDate,
+      memberType,
+
+      email: email || null,
+      phone,
+      motivations,
+
+      paymentAccepted: paymentAccepted === "on",
+      agreementAccepted: agreementAccepted === "on",
+    },
+  });
   // ✅ TODO next:
-  // - store member request (DB / Google Sheet / email)
   // - create Stripe payment intent / checkout
   // For now:
   redirect("/adhesion/success");
