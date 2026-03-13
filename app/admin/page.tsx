@@ -20,9 +20,16 @@ export default async function AdminPage() {
   return (
     <Container>
       <h1 className="text-3xl font-semibold tracking-tight">
-        Admin — Membres Tianuni
+        Administration - Membres Tianuni
       </h1>
       <p className="mt-2 text-neutral-600">Liste des membres enregistrés.</p>
+      <Link
+        href={`/adhesion`}
+        className="w-fit rounded bg-blue-900 text-white px-2 py-1 text-xs hover:bg-blue-800 hover:underline"
+      >
+        Ajouter un membre
+      </Link>
+
       <div className="mt-6 flex justify-between items-center">
         <p className="rounded border border-neutral-300 text-neutral-700 text-sm font-semibold px-4 py-2 shadow-sm cursor-pointer">
           Total membres: {members.length}
