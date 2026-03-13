@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { prisma } from "../_lib/prisma";
+import { cookies } from "next/headers";
+import { redirect } from "next/navigation";
 import Container from "@/app/components/Container";
 
 export default async function AdminPage() {
@@ -7,6 +9,13 @@ export default async function AdminPage() {
     // where: { isActive: true },
     orderBy: { createdAt: "desc" },
   });
+
+  async function logout() {
+    "use server";
+    const cookie = await cookies();
+    cookie.delete("admin");
+    redirect("/");
+  }
 
   return (
     <Container>
@@ -27,6 +36,11 @@ export default async function AdminPage() {
       </div>
 
       <MembersTable members={members} />
+      <form action={logout} className="mt-12">
+        <button className="rounded bg-black py-2 px-4 text-white cursor-pointer hover:bg-black/80">
+          Admin Logout
+        </button>
+      </form>
     </Container>
   );
 }
