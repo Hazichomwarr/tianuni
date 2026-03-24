@@ -17,7 +17,7 @@ const ADMINISTRATEURS: Administrator[] = [
     role: "Présidente de l’Association Tianuni",
     qualifications:
       "Superviseure en entretien ménager, conseillère en techniques de gestion hôtelière et gestionnaire événementielle.",
-    image: "/admin/presi05.jpg",
+    image: "/admins/presi5.jpg",
   },
   // {
   //   name: "M. GOUSSA Adama Gérard",
@@ -31,20 +31,20 @@ const ADMINISTRATEURS: Administrator[] = [
     role: "Coordination générale : supervision de l’ensemble des activités, gestion des imprévus et suivi du plan d’action de l’Association Tianuni",
     qualifications:
       "Conseiller en automatisation du bâtiment - Organization: CHU de Québec",
-    image: "/admin/admin4.jpeg",
+    image: "/admins/admin4.jpeg",
   },
   {
     name: "Jessica Yasmine Gouba",
     role: "Trésorière de l’Association Tianuni",
     qualifications:
       "Étudiante en soins infirmiers auxiliaires et maquilleuse professionnelle.",
-    image: "/admin/admin_4.jpg",
+    image: "/admins/admin_4.jpg",
   },
   {
     name: "Ramata Diallo",
     role: "Membre du Conseil d’Administration",
     qualifications: "Conseillère agréée en avantages sociaux.",
-    image: "/admin/admin_3.jpg",
+    image: "/admins/admin_3.jpg",
   },
 
   {
@@ -52,7 +52,7 @@ const ADMINISTRATEURS: Administrator[] = [
     role: "Membre du Conseil d’Administration",
     qualifications:
       "Analyste en intelligence d’affaires et intelligence artificielle.",
-    image: "/admin/admin_2.jpg",
+    image: "/admins/admin_2.jpg",
   },
 ];
 
