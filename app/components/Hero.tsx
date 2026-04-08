@@ -55,6 +55,12 @@ export default function Hero() {
             >
               En savoir plus
             </Link>
+            <Link
+              href="/adhesion"
+              className="rounded-md border border-black/30 px-4 py-2.5 text-sm font-medium hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/80"
+            >
+              Devenir membre
+            </Link>
           </div>
 
           <div className="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-sm text-black/80 dark:text-neutral-300">

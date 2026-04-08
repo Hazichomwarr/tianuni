@@ -1,3 +1,4 @@
+import { SITE } from "@/app/_lib/site";
 import Container from "@/app/components/Container";
 import Link from "next/link";
 
@@ -21,8 +22,8 @@ export default function SuccessPage() {
           Payer l’adhésion →
         </Link> */}
         <p className="text-lg font-semibold">
-          Veuillez payer les frais d{"'"}ahesion par virement INTERACT a ce
-          couriel: assotianuni@hotmail.com
+          Veuillez payer maintenant les frais d{"'"}ahesion par virement
+          INTERACT a ce couriel: {SITE.email}
         </p>
         <Link
           href="/"

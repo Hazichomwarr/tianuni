@@ -44,15 +44,20 @@ export default function MemberForm() {
       />
 
       <div className="flex flex-col gap-4">
-        <Input name="lastName" placeholder="Nom" error={err("lastName")} />
-        <Input
-          name="firstName"
-          placeholder="Prénom(s)"
-          error={err("firstName")}
-        />
-        <Input name="address" placeholder="Adresse" error={err("address")} />
+        <div className="grid grid-cols-2 gap-2">
+          <Input name="lastName" placeholder="Nom" error={err("lastName")} />
+          <Input
+            name="firstName"
+            placeholder="Prénom(s)"
+            error={err("firstName")}
+          />
+        </div>
+        <div className="grid grid-cols-2 gap-2">
+          <Input name="address" placeholder="Adresse" error={err("address")} />
 
-        <Input name="phone" placeholder="Téléphone" error={err("phone")} />
+          <Input name="phone" placeholder="Téléphone" error={err("phone")} />
+        </div>
+
         <Input
           name="email"
           type="email"
