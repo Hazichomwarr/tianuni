@@ -32,7 +32,7 @@ export default function SiteHeader() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="text-sm text-neutral-700 hover:text-neutral-900"
+                className=" text-neutral-700 transition duration-200 hover:text-neutral-900 hover:underline"
               >
                 {item.label}
               </Link>
@@ -49,7 +49,7 @@ export default function SiteHeader() {
             </Link>
             <Link
               href={ROUTES.contact}
-              className="rounded-md bg-neutral-900 px-3 py-2 text-sm text-white hover:bg-neutral-800"
+              className="rounded-md bg-neutral-900 px-3 py-2 text-sm text-white hover:bg-neutral-800 "
             >
               Contact
             </Link>
