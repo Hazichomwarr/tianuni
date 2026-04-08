@@ -129,8 +129,8 @@ export default function MemberForm() {
             Paiement
           </h3>
           <p className="mt-2 text-sm text-neutral-700">
-            Après l’enregistrement, je m{"'"}engage payer a les frais d{"'"}
-            adhésion en ligne.
+            Après l’enregistrement, je m{"'"}engage a payer a les frais d{"'"}
+            adhésion en ligne, par virement INTERACT.
           </p>
           <label className="mt-3 flex items-center gap-2 text-sm text-neutral-800">
             <input type="checkbox" name="payment" className="h-4 w-4" />

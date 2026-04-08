@@ -14,18 +14,21 @@ export default function SuccessPage() {
       </p>
 
       <div className="mt-6 flex flex-wrap gap-3">
+        {/* <Link
+          href="/payment"
+          className="rounded-md border border-neutral-300 bg-white px-4 py-2.5 text-sm font-medium hover:bg-neutral-50"
+        >
+          Payer l’adhésion →
+        </Link> */}
+        <p className="text-lg font-semibold">
+          Veuillez payer les frais d{"'"}ahesion par virement INTERACT a ce
+          couriel: assotianuni@hotmail.com
+        </p>
         <Link
           href="/"
           className="rounded-md bg-neutral-900 px-4 py-2.5 text-sm font-medium text-white hover:bg-neutral-800"
         >
           Retour à l’accueil
-        </Link>
-
-        <Link
-          href="/payment"
-          className="rounded-md border border-neutral-300 bg-white px-4 py-2.5 text-sm font-medium hover:bg-neutral-50"
-        >
-          Payer l’adhésion →
         </Link>
       </div>
     </Container>
