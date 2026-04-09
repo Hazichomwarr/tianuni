@@ -126,9 +126,9 @@ export default function SiteHeader() {
             aria-label="Toggle menu"
           >
             <div className="space-y-1.5">
-              <span className="block h-0.5 w-6 bg-black" />
-              <span className="block h-0.5 w-6 bg-black" />
-              <span className="block h-0.5 w-6 bg-black" />
+              <span className="block h-0.5 w-6 bg-black dark:bg-white" />
+              <span className="block h-0.5 w-6 bg-black dark:bg-white" />
+              <span className="block h-0.5 w-6 bg-black dark:bg-white" />
             </div>
           </button>
         </div>
