@@ -21,9 +21,8 @@ const ADMINISTRATEURS: Administrator[] = [
   },
   {
     name: "Addis Amavi",
-    role: "Vice-président – Relations extérieures et affaires culturelles",
-    qualifications:
-      "Gestionnaire immobilière | Investisseuse immobilière | Fondatrice de l’Association Sœurs en Action pour la Diversité",
+    role: "Sécrétaire Générale – Relations extérieures et affaires culturelles",
+    qualifications: "Gestionnaire immobilière | Investisseuse immobilière ",
     image: "/admins/admin7.jpeg",
   },
   {

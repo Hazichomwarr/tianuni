@@ -61,7 +61,7 @@ export default function HomePage() {
       </section>
 
       {/* GALLERY TEASER */}
-      <section className="py-10">
+      <section className="py-16 px-4 bg-gradient-to-r from-rose-50 to-amber-50">
         <div className="rounded-2xl border p-7 md:p-10">
           <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
             <div className="max-w-2xl">
