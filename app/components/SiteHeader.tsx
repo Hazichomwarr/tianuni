@@ -6,12 +6,14 @@ import Container from "./Container";
 import { ROUTES } from "../_lib/siteRoutes";
 import { HEADER_NAV } from "../_lib/nav";
 import { useState } from "react";
+import AnnouncementBar from "./AnouncementBar";
 
 export default function SiteHeader() {
   const [open, setOpen] = useState(false);
 
   return (
     <header className="border-b">
+      <AnnouncementBar />
       <Container>
         <div className="flex items-center justify-between py-2">
           {/* LOGO */}
@@ -39,6 +41,12 @@ export default function SiteHeader() {
                 {item.label}
               </Link>
             ))}
+            <Link
+              href="/event/afro-mandingue-2026"
+              className="text-neutral-700 text-sm transition hover:text-neutral-900 hover:underline"
+            >
+              Evenement
+            </Link>
           </nav>
 
           {/* CTA (desktop) */}
