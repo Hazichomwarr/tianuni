@@ -57,7 +57,7 @@ export default function Page() {
           <div className="grid gap-6 md:grid-cols-3">
             <div className="rounded-2xl border p-6">
               <p className="text-xs font-semibold text-neutral-500">DATE</p>
-              <p className="mt-2 text-xl font-semibold text-black">
+              <p className="mt-2 text-xl font-semibold text-black dark:text-white">
                 1 Août 2026
               </p>
               <p className="text-sm text-neutral-600">8 PM</p>
@@ -65,7 +65,7 @@ export default function Page() {
 
             <div className="rounded-2xl border p-6">
               <p className="text-xs font-semibold text-neutral-500">LOCATION</p>
-              <p className="mt-2 text-xl font-semibold text-black">
+              <p className="mt-2 text-xl font-semibold text-black dark:text-white">
                 Québec, Canada
               </p>
               {/* <p className="text-sm text-neutral-600">405 W 125th Street</p> */}
@@ -205,7 +205,7 @@ export default function Page() {
 
             <div className="flex gap-3">
               <a href={whatsapp} target="_blank">
-                <button className="rounded-md bg-white text-black px-3 py-2 text-sm hover:bg-neutral-200 cursor-pointer">
+                <button className="rounded-md bg-white text-black px-3 py-2 text-sm hover:bg-neutral-200 cursor-pointer dark:text-white">
                   Reserve Maintenant
                 </button>
               </a>
