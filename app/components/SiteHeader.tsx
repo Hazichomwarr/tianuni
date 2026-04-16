@@ -1,65 +1,3 @@
-// // components/SiteHeader.tsx
-
-// import Link from "next/link";
-// import Image from "next/image";
-// import Container from "./Container";
-// import { ROUTES } from "../_lib/siteRoutes";
-// import { HEADER_NAV } from "../_lib/nav";
-
-// export default function SiteHeader() {
-//   return (
-//     <header className="border-b">
-//       <Container>
-//         {/* LOGO */}
-//         <div className="flex items-center justify-between py-4">
-//           <Link href={ROUTES.home} className="flex items-center gap-3">
-//             <Image
-//               src="/logo2.jpeg"
-//               alt="Association Tianuni"
-//               width={90}
-//               height={90}
-//               priority
-//               className="rounded-full bg-gray-100 shadow-lg p-1.5 object-contain"
-//               sizes="(max-width: 768px) 56px, 64px"
-//             />
-
-//             <span className="sr-only">Tianuni</span>
-//           </Link>
-
-//           {/* Nav links */}
-//           <nav className="hidden gap-6 md:flex">
-//             {HEADER_NAV.map((item) => (
-//               <Link
-//                 key={item.href}
-//                 href={item.href}
-//                 className=" text-neutral-700 transition duration-200 hover:text-neutral-900 hover:underline"
-//               >
-//                 {item.label}
-//               </Link>
-//             ))}
-//           </nav>
-
-//           {/* CTA */}
-//           <div className="flex items-center gap-2">
-//             <Link
-//               href={ROUTES.participate}
-//               className="rounded-md border px-3 py-2 text-sm hover:bg-neutral-50"
-//             >
-//               Participer
-//             </Link>
-//             <Link
-//               href={ROUTES.contact}
-//               className="rounded-md bg-neutral-900 px-3 py-2 text-sm text-white hover:bg-neutral-800 "
-//             >
-//               Contact
-//             </Link>
-//           </div>
-//         </div>
-//       </Container>
-//     </header>
-//   );
-// }
-
 "use client";
 
 import Link from "next/link";
@@ -75,14 +13,14 @@ export default function SiteHeader() {
   return (
     <header className="border-b">
       <Container>
-        <div className="flex items-center justify-between py-4">
+        <div className="flex items-center justify-between py-2">
           {/* LOGO */}
           <Link href={ROUTES.home} className="flex items-center gap-3">
             <Image
               src="/logo2.jpeg"
               alt="Association Tianuni"
-              width={90}
-              height={90}
+              width={75}
+              height={75}
               priority
               className="rounded-full bg-gray-100 p-1.5 object-contain shadow-lg"
               sizes="(max-width: 768px) 56px, 64px"
@@ -96,7 +34,7 @@ export default function SiteHeader() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="text-neutral-700 transition hover:text-neutral-900 hover:underline"
+                className="text-neutral-700 text-sm transition hover:text-neutral-900 hover:underline"
               >
                 {item.label}
               </Link>

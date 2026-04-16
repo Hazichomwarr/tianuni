@@ -23,7 +23,7 @@ export default function Pillars() {
   //   },
   // ];
   return (
-    <section className="py-16 bg-white dark:bg-neutral-900">
+    <section className="py-16 bg-gradient-to-r from-rose-50 to-amber-50 dark:bg-neutral-900">
       <Container>
         <div className="flex items-center justify-between gap-4">
           <h2 className="text-2xl font-semibold tracking-tight">Nos Valeurs</h2>

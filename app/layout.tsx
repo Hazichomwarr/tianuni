@@ -32,7 +32,7 @@ export default function RootLayout({
         className={`bg-white text-neutral-900 ${geistSans.variable} ${geistMono.variable} antialiased min-h-screen dark:bg-neutral-950 dark:text-neutral-50`}
       >
         <SiteHeader />
-        <main className="py-10"> {children}</main>
+        {children}
         <SiteFooter />
       </body>
     </html>
