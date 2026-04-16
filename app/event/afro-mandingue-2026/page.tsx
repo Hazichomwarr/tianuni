@@ -135,8 +135,7 @@ export default function Page() {
               Event Goals
             </h3>
             <p className="mt-2 text-base  text-neutral-700">
-              Les objectifs spécifiques du Wonder Woman Africa International
-              Festival pour cet événement.
+              Les objectifs spécifiques pour cet événement.
             </p>
           </div>
           <div className="mt-10 grid gap-6 md:grid-cols-3">
