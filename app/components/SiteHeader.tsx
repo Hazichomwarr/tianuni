@@ -93,7 +93,13 @@ export default function SiteHeader() {
                   {item.label}
                 </Link>
               ))}
-
+              <Link
+                href="/event/afro-mandingue-2026"
+                className="text-neutral-700 text-sm transition hover:text-neutral-900 hover:underline"
+                onClick={() => setOpen(false)}
+              >
+                Evenement
+              </Link>
               <div className="mt-2 flex flex-col gap-2">
                 <Link
                   href={ROUTES.participate}
