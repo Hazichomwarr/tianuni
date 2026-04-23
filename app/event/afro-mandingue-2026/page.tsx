@@ -58,7 +58,7 @@ export default function Page() {
           <div className="grid gap-6 md:grid-cols-3">
             <div className="rounded-2xl border p-6">
               <p className="text-xs font-semibold text-neutral-500">DATE</p>
-              <p className="mt-2 text-xl font-semibold text-black">
+              <p className="mt-2 text-xl font-semibold text-black dark:text-white">
                 1 août 2026
               </p>
               <p className="text-sm text-neutral-600">20h00</p>
@@ -187,7 +187,7 @@ export default function Page() {
 
             <div>
               <a href={whatsapp} target="_blank">
-                <button className="rounded-md bg-white text-black px-5 py-2.5 text-sm font-medium hover:bg-neutral-200 cursor-pointer">
+                <button className="rounded-md bg-white text-black px-5 py-2.5 text-sm font-medium hover:bg-neutral-200 cursor-pointer dark:border dark:border-white dark:text-white">
                   Réserver maintenant
                 </button>
               </a>

@@ -50,10 +50,10 @@ export default function Hero() {
 
           <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <Link
-              href={ROUTES.activities}
+              href={ROUTES.about}
               className="rounded-full bg-red-500 px-8 py-3 font-semibold text-white transition hover:bg-red-400"
             >
-              Découvrir nos activités
+              Qui sommes nous
             </Link>
 
             <Link
@@ -61,6 +61,12 @@ export default function Hero() {
               className="rounded-full border border-neutral-600 px-8 py-3 text-neutral-200 transition hover:border-neutral-400"
             >
               Devenir membre
+            </Link>
+            <Link
+              href={ROUTES.activities}
+              className="rounded-full border border-neutral-600 px-8 py-3 text-neutral-200 transition hover:border-neutral-400"
+            >
+              Nos Activités
             </Link>
           </div>
         </div>

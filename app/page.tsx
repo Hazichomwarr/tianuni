@@ -22,7 +22,7 @@ export default function HomePage() {
       <Impact />
 
       {/* ACTIVITIES */}
-      <section className="py-16 bg-linear-to-r from-rose-50 to-amber-50">
+      <section className="bg-linear-to-r from-rose-50 to-amber-50 dark:bg-white">
         <Container>
           <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
             <div>
@@ -65,7 +65,7 @@ export default function HomePage() {
       </section>
 
       {/* GALLERY TEASER */}
-      <section className="py-16">
+      <section>
         <Container>
           <div className="rounded-2xl border p-7 md:p-10">
             <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">

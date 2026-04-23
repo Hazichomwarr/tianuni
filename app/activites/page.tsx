@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Container from "../components/Container";
 import { ACTIVITES_NAV } from "../_lib/nav";
+import { ROUTES } from "../_lib/siteRoutes";
 
 export default function ActivitesPage() {
   return (
@@ -24,6 +25,14 @@ export default function ActivitesPage() {
           </Link>
         ))}
       </div>
+      <Link
+        href={ROUTES.gallery}
+        className="mt-4 block text-end w-fit cursor-pointer hover:bg-neutral-50  hover:underline"
+      >
+        <div className="mt-2 text-sm text-neutral-700">
+          Voir notre gallerie →
+        </div>
+      </Link>
     </Container>
   );
 }
