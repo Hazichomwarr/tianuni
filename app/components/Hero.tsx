@@ -30,7 +30,7 @@ export default function Hero() {
         </div>
 
         {/* OVERLAY */}
-        <div className="absolute inset-0 bg-black/70" />
+        <div className="absolute inset-0 bg-black/60" />
 
         {/* CONTENT */}
         <div className="relative mx-auto max-w-5xl px-6 py-28 text-center">
