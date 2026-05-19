@@ -1,3 +1,7 @@
+// app/_lib/stripeLinks.ts
+
 export const STRIPE_LINKS = {
-  membershipAnnual100Cad: "PASTE_STRIPE_PAYMENT_LINK_HERE",
+  adhesion: "",
+  donation: "",
+  eventTicket: "",
 } as const;
