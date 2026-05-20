@@ -8,7 +8,7 @@ export default function ParticiperPage() {
     <Container>
       <h1 className="text-3xl font-semibold tracking-tight">Participer</h1>
       <p className="mt-3 max-w-2xl text-neutral-700">
-        Il y a plusieurs façons de s’impliquer : participer aux activités,
+        Il y a plusieurs façons de s’impliquer: participer aux activités,
         devenir bénévole, proposer une collaboration, ou soutenir l’association.
       </p>
 
