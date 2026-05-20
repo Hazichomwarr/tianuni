@@ -1,7 +1,7 @@
 // app/_lib/stripeLinks.ts
-
 export const STRIPE_LINKS = {
   adhesion: "",
   donation: "",
-  eventTicket: "",
+  eventAdult: "",
+  eventChild: "",
 } as const;

@@ -60,14 +60,14 @@ export default function PaymentPage() {
       </h1>
 
       <p className="mt-3 max-w-2xl text-neutral-700 leading-relaxed">
-        Choisissez votre type d’adhésion pour finaliser votre inscription. Le
-        paiement est sécurisé et traité par Stripe.
+        Effectuez votre adhésion, soutenez l’association ou réservez vos billets
+        d’événement grâce à notre système de paiement sécurisé via Stripe.
       </p>
 
-      <div className="mt-8 grid gap-4 md:grid-cols-3">
+      <div className="mt-8 grid gap-4 md:grid-cols-2">
         <PayCard
           title="💳 Payer l’adhésion"
-          priceNote="Cotisation annuelle — 100$"
+          priceNote="Cotisation annuelle — 100 CAD"
           href={STRIPE_LINKS.adhesion}
         />
 
@@ -78,9 +78,15 @@ export default function PaymentPage() {
         />
 
         <PayCard
-          title="🎟️ Billet événement"
-          priceNote="Réserver votre place"
-          href={STRIPE_LINKS.eventTicket}
+          title="🎟️ Billet adulte"
+          priceNote="Soirée Afro Mandingue — 65 CAD"
+          href={STRIPE_LINKS.eventAdult}
+        />
+
+        <PayCard
+          title="🎟️ Billet enfant"
+          priceNote="Soirée Afro Mandingue — 30 CAD"
+          href={STRIPE_LINKS.eventChild}
         />
       </div>
 
