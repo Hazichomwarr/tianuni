@@ -12,6 +12,7 @@ export const ROUTES = {
   contact: "/contact",
   legal: "/mentions-legales",
   privacy: "/politique-confidentialite",
+  payment: "/payment",
 
   // Activities (reduced)
   activities_events: "/activites/evenements",

@@ -10,6 +10,7 @@ export const HEADER_NAV: NavItem[] = [
   { label: "Galerie", href: ROUTES.gallery },
   { label: "Mission", href: ROUTES.mission },
   { label: "Impact", href: ROUTES.impact },
+  { label: "Contact", href: ROUTES.contact },
 ];
 
 export const ACTIVITES_NAV: NavItem[] = [

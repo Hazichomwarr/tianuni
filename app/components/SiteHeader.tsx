@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import Container from "./Container";
 import { ROUTES } from "../_lib/siteRoutes";
 import { HEADER_NAV } from "../_lib/nav";
 import { useState } from "react";
@@ -57,10 +56,10 @@ export default function SiteHeader() {
             Participer
           </Link>
           <Link
-            href={ROUTES.contact}
+            href={ROUTES.payment}
             className="rounded-md bg-neutral-900 px-3 py-2 text-sm text-white hover:bg-neutral-800"
           >
-            Contact
+            Payement
           </Link>
         </div>
 
@@ -108,11 +107,11 @@ export default function SiteHeader() {
                 Participer
               </Link>
               <Link
-                href={ROUTES.contact}
+                href={ROUTES.payment}
                 onClick={() => setOpen(false)}
                 className="rounded-md bg-neutral-900 px-3 py-2 text-sm text-white text-center hover:bg-neutral-800"
               >
-                Contact
+                Payement
               </Link>
             </div>
           </div>

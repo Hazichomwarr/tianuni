@@ -10,5 +10,5 @@ export const STRIPE_LINKS = {
   adhesion: "https://buy.stripe.com/3cI6oI4xZ3d12Kj7vjf7i03",
   donation: "https://buy.stripe.com/dRm9AUc0rcNBfx5eXLf7i04",
   eventAdult: "https://buy.stripe.com/4gMeVe5C37th98HbLzf7i01",
-  eventChild: "https://buy.stripe.com/bJe28saWn5l9doX4j7f7i02",
+  eventChild: "https://buy.stripe.com/00w14o3tV3d15WvaHvf7i05",
 };
