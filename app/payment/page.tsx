@@ -43,9 +43,9 @@ export default async function PaymentPage({
         {message} grâce à notre système de paiement sécurisé via Stripe.
       </p>
       {/* NEW NOTE */}
-      <p className="mt-3 rounded-md bg-amber-50 border border-amber-200 px-3 py-2 text-xs text-amber-800">
+      {/* <p className="mt-3 rounded-md bg-amber-50 border border-amber-200 px-3 py-2 text-xs text-amber-800">
         ℹ️ Un léger frais de traitement peut être appliqué.
-      </p>
+      </p> */}
 
       <div className="mt-8 grid gap-4 md:grid-cols-2">
         {/* <PayCard

@@ -5,12 +5,12 @@ import { STRIPE_LINKS } from "./stripeLinks";
 export const PAYMENT_OPTIONS = {
   "event-adult": {
     title: "🎟️ Billet Adulte — Soirée Afro Mandingue",
-    note: "65 CAD",
+    note: "70 CAD",
     href: STRIPE_LINKS.eventAdult,
   },
   "event-child": {
     title: "🎟️ Billet Enfant — Soirée Afro Mandingue",
-    note: "25 CAD",
+    note: "30 CAD",
     href: STRIPE_LINKS.eventChild,
   },
   adhesion: {
