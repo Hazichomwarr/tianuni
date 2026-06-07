@@ -12,7 +12,7 @@ export default function Page() {
       <section className="relative bg-black text-white">
         <div className="absolute inset-0 opacity-20">
           <Image
-            src="/event/tianuni-afro-mandingue.jpg"
+            src="/event/tianuni-event-afro.jpg"
             alt="Soirée Afro Mandingue"
             fill
             priority
@@ -68,9 +68,20 @@ export default function Page() {
 
             <div className="rounded-2xl border p-6">
               <p className="text-xs font-semibold text-neutral-500">LIEU</p>
+
               <p className="mt-2 text-xl font-semibold text-black">
-                Québec, Canada
+                Centre communautaire <br />
+                Michel-Labadie
               </p>
+
+              <a
+                href="https://maps.google.com/?q=3705+Av+Chauveau,+Québec,+QC+G2C+1A3"
+                target="_blank"
+                rel="noreferrer"
+                className="mt-1 inline-block text-sm text-blue-700 hover:underline"
+              >
+                3705 AV. Chauveau, Québec, QC G2C 1A3
+              </a>
             </div>
           </div>
         </Container>
@@ -101,7 +112,7 @@ export default function Page() {
                 </Link>
 
                 <a href={whatsapp} target="_blank">
-                  <button className="text-black underline cursor-pointer">
+                  <button className="rounded-md border border-gray-300 px-4 py-2 text-sm hover:bg-green-400 cursor-pointer">
                     Chat sur WhatsApp
                   </button>
                 </a>
@@ -111,7 +122,7 @@ export default function Page() {
             {/* Poster */}
             <div className="relative rounded-2xl shadow-lg">
               <Image
-                src="/event/tianuni-afro-mandingue.jpg"
+                src="/event/tianuni-event-afro.jpg"
                 alt="Affiche de l’événement"
                 width={545}
                 height={600}
@@ -193,7 +204,7 @@ export default function Page() {
                 href="/payment?type=event"
                 className="rounded-md bg-white text-black px-5 py-2.5 text-sm font-medium hover:bg-neutral-200 cursor-pointer dark:border dark:border-white dark:text-white"
               >
-                Réserver maintenant
+                Acheter votre Ticket
               </Link>
             </div>
           </div>

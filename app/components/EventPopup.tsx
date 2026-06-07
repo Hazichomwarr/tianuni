@@ -59,7 +59,7 @@ export default function EventPopup() {
           </h3>
 
           <Image
-            src="/event/tianuni-afro-mandingue.jpg"
+            src="/event/tianuni-event-afro.jpg"
             alt="Soirée Afro Mandingue"
             width={300}
             height={400}
