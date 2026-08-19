@@ -92,15 +92,15 @@ export default function HomePage() {
             <div className="mt-8 grid gap-3 md:grid-cols-3">
               {[
                 {
-                  src: "/gallery/guests.jpeg",
+                  src: "/gallery/2025/guests.jpeg",
                   alt: "Souvenir d’un événement Tianuni",
                 },
                 {
-                  src: "/gallery/presi&guests.jpeg",
+                  src: "/gallery/2025/presi&guests.jpeg",
                   alt: "Moment fort de la communauté",
                 },
                 {
-                  src: "/gallery/guests2.jpeg",
+                  src: "/gallery/2025/guests2.jpeg",
                   alt: "Atelier et échanges culturels",
                 },
               ].map((img) => (

@@ -34,7 +34,7 @@ const GALLERY: GalleryYear[] = [
           "Quelques beaux souvenirs de notre festival 2025. Devenez membre pour partager ces moments avec nous.",
         pictures: [
           {
-            src: "/gallery/presi&parrain2.jpg",
+            src: "/gallery/2025/presi&parrain2.jpg",
             alt: "festival",
             label: {
               title:
@@ -105,18 +105,9 @@ La Présidente de l’Association Tianuni`,
             },
           },
           {
-            src: "/gallery/concert.jpeg",
+            src: "/gallery/2025/concert.jpeg",
             alt: "festival",
           },
-
-          // {
-          //   src: "/images/regie_technic.jpg",
-          //   alt: "festival",
-          //   label: {
-          //     title: "La régie technique",
-          //     text: "La régie technique assurant la gestion du son, de la musique et de la coordination audiovisuelle, garantissant le bon déroulement de l’ensemble des prestations du festival.",
-          //   },
-          // },
 
           {
             src: "/images/concert.jpg",
@@ -127,7 +118,7 @@ La Présidente de l’Association Tianuni`,
             },
           },
           {
-            src: "/gallery/concert2.jpeg",
+            src: "/gallery/2025/concert2.jpeg",
             alt: "festival",
           },
         ],
@@ -160,26 +151,12 @@ La Présidente de l’Association Tianuni`,
             alt: "atelier cuisine",
           },
 
-          // {
-          //   src: "/images/kakemono.jpg",
-          //   alt: "conference débat",
-          //   label: {
-          //     title: "Le kakémono de l’Association Tianuni",
-          //     text: "Symbole de notre engagement pour la culture, l’unité et la transmission des valeurs mandingues au sein de la communauté.",
-          //   },
-          // },
-
-          // {
-          //   src: "/images/img23.jpeg",
-          //   alt: "conference débat",
-          // },
-
           {
-            src: "/gallery/foodArray.jpeg",
+            src: "/gallery/2025/foodArray.jpeg",
             alt: "atelier cuisine",
           },
           {
-            src: "/gallery/foodArray2.jpeg",
+            src: "/gallery/2025/foodArray2.jpeg",
             alt: "atelier cuisine",
           },
         ],
@@ -204,7 +181,7 @@ La Présidente de l’Association Tianuni`,
             alt: "conference débat",
           },
           {
-            src: "/gallery/petiteSoeur.jpeg",
+            src: "/gallery/2025/petiteSoeur.jpeg",
             alt: "conference débat",
           },
           {
@@ -240,7 +217,7 @@ Je vous remercie.`,
             },
           },
           {
-            src: "/gallery/presiChatting.jpeg",
+            src: "/gallery/2025/presiChatting.jpeg",
             alt: "festival",
           },
         ],
