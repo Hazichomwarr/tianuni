@@ -46,13 +46,13 @@ const ADMINISTRATEURS: Administrator[] = [
     image: "/admins/admin_3.jpg",
   },
 
-  {
-    name: "Solange Teila Baro",
-    role: "Membre du Conseil d’Administration",
-    qualifications:
-      "Analyste en intelligence d’affaires et intelligence artificielle.",
-    image: "/admins/admin_2.jpg",
-  },
+  // {
+  //   name: "Solange Teila Baro",
+  //   role: "Membre du Conseil d’Administration",
+  //   qualifications:
+  //     "Analyste en intelligence d’affaires et intelligence artificielle.",
+  //   image: "/admins/admin_2.jpg",
+  // },
 ];
 
 function AdminCard({ name, role, qualifications, image }: Administrator) {

@@ -7,13 +7,13 @@ import { ACTIVITES_NAV } from "./_lib/nav";
 import Hero from "./components/Hero";
 import Pillars from "./components/Pillars";
 import Impact from "./components/Impact";
-import EventPopup from "./components/EventPopup";
+// import EventPopup from "./components/EventPopup";
 import FloatingDonationButton from "./components/FloatingDonationButton";
 
 export default function HomePage() {
   return (
     <main>
-      <EventPopup />
+      {/* <EventPopup /> */}
       <Hero />
 
       {/* MISSION */}

@@ -12,7 +12,7 @@ export default function SiteHeader() {
 
   return (
     <header className="border-b px-6 py-2">
-      <AnnouncementBar />
+      {/* <AnnouncementBar /> */}
       <div className="flex items-center justify-between">
         {/* LOGO */}
         <Link href={ROUTES.home} className="flex items-center gap-3">
